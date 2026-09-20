@@ -6,7 +6,7 @@
 
 ## 全体情報
 - 尺: 60秒
-- 主人公: マスコットキャラ(男性/女性、どちらか自分に近い方を採用。assets/mascot-male-final.webp / mascot-female-final.webp参照)
+- 主人公: 男性マスコットキャラに固定(assets/mascot-male-final.webp、フウガさん本人役)
 - 音声: AI音声合成(VOICEVOX/CoeFontなど)、丁寧語・穏やかなトーンで読み上げ
 - 注意: 会社の実データはそのまま映さない。架空の数値かモザイクで再現すること
 
