@@ -44,6 +44,8 @@
   - company/secretary/todos/ - 日付ごとのtodo
   - company/secretary/ideas/ - アイデア・メモ
   - company/secretary/logs/ - 日報・活動ログ
+- youtube（制作部）: YouTube動画の台本管理
+  - company/youtube/scripts/ - 台本（YYYY-MM-DD_テーマ_vN.md で版を残す）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
