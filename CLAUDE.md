@@ -49,6 +49,7 @@
 - youtube（制作部）: YouTube動画の台本管理
   - company/youtube/scripts/ - 台本（YYYY-MM-DD_テーマ_vN.md で版を残す）
   - company/youtube/channel-profile.md - チャンネル/Instagramの説明文・ブランド設定
+  - company/youtube/launch-flow.pdf - 開設フローのチェックシート（元データは launch-checklist.md / blocked-words.md）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
