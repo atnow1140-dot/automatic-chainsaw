@@ -3,6 +3,8 @@
 ## 基本情報
 - 名前: フウガ
 - 職業/活動: YouTubeチャンネルの運営、動画制作（2026-09-25にInstagramから移行）
+- チャンネル: 「真面目の芽（MAJIME no ME）」大人のための静かな学び／ナビゲーター: シン
+  - YouTube本編（10〜15分）をメインに、YouTubeショートとInstagramから本編へ誘導
 - 言語: 日本語で対応すること
 
 ## 主な業務
@@ -46,6 +48,7 @@
   - company/secretary/logs/ - 日報・活動ログ
 - youtube（制作部）: YouTube動画の台本管理
   - company/youtube/scripts/ - 台本（YYYY-MM-DD_テーマ_vN.md で版を残す）
+  - company/youtube/channel-profile.md - チャンネル/Instagramの説明文・ブランド設定
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
