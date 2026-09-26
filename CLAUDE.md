@@ -46,12 +46,12 @@
   - company/secretary/todos/ - 日付ごとのtodo
   - company/secretary/ideas/ - アイデア・メモ
   - company/secretary/logs/ - 日報・活動ログ
-- youtube（制作部）: YouTube動画の台本管理
-  - company/youtube/scripts/ - 台本（YYYY-MM-DD_テーマ_vN.md で版を残す）
-  - company/youtube/neta-10_no-graph.md - 本編ネタ帳（図なし構成の10本）
-  - company/youtube/assets/image-prompt-style.pdf - AI画像の画風プロンプト集（全動画共通）
-  - company/youtube/channel-profile.md - チャンネル/Instagramの説明文・ブランド設定
-  - company/youtube/launch-flow.pdf - 開設フローのチェックシート（元データは launch-checklist.md / blocked-words.md）
+- majime-no-me（真面目の芽プロジェクト／制作部）: YouTube本編・ショート・Instagramの制作
+  - company/majime-no-me/CLAUDE.md - プロジェクトのルール・制作の流れ・エピソード一覧（まずここを読む）
+  - company/majime-no-me/episodes/epNN_テーマ/ - 1エピソード分（本編台本・Vrew用・画像・音・ショート・Instagram）
+  - company/majime-no-me/channel/ - チャンネル説明文・開設チェックリスト・ブロック単語
+  - company/majime-no-me/assets/ - 全動画共通の素材（AI画像の画風プロンプト集）
+  - company/majime-no-me/ideas/ - 本編のネタ帳
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
