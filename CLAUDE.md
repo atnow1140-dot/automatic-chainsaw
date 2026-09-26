@@ -49,6 +49,7 @@
 - youtube（制作部）: YouTube動画の台本管理
   - company/youtube/scripts/ - 台本（YYYY-MM-DD_テーマ_vN.md で版を残す）
   - company/youtube/neta-10_no-graph.md - 本編ネタ帳（図なし構成の10本）
+  - company/youtube/assets/image-prompt-style.pdf - AI画像の画風プロンプト集（全動画共通）
   - company/youtube/channel-profile.md - チャンネル/Instagramの説明文・ブランド設定
   - company/youtube/launch-flow.pdf - 開設フローのチェックシート（元データは launch-checklist.md / blocked-words.md）
 
