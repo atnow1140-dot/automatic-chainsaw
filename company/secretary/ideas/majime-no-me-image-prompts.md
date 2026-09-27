@@ -39,7 +39,7 @@ a tired middle-aged Japanese man with an oversized head, long pale face, hollow 
 ```
 - **セネカ**
 ```
-Seneca, an elderly Roman philosopher with a bald head, short gray beard, deep-set wise tired eyes, wearing a simple off-white toga
+Seneca, an elderly Roman philosopher, completely bald on top with no curly hair, short neatly trimmed gray beard, deep-set wise tired eyes, wearing a simple off-white toga, in ancient Rome (not Greece)
 ```
 
 ---
