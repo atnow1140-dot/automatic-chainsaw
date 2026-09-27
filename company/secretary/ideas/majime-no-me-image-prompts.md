@@ -340,3 +340,8 @@ Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as
 ```
 Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a single fresh green sprout growing out of a crack in an old broken hourglass, soft morning sunlight behind it, the green sprout is the only vivid color in the image.
 ```
+
+**No.32**｜8:56〜｜【エンドカード】本を読む男と育った芽。右半分は登録ボタン用の余白
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. on the left third of the image, the man sits by a window in soft morning light reading a book with a faint peaceful smile, a small potted green sprout (a little bigger than before) on the windowsill beside him. The right two thirds of the image is a simple, calm, plain warm-beige wall with nothing on it, left empty for text and buttons. the man is the same tired Japanese man. No text, no letters anywhere.
+```
