@@ -1,4 +1,4 @@
-# Japan Cities Shorts（アメリカ向けショート動画）
+# 海外向けショート動画（Japan Cities）
 
 作成日: 2026-09-27
 
