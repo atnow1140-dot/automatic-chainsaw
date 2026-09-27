@@ -86,7 +86,7 @@ an old brass balance scale, on one side a pile of gold coins wrapped in heavy ch
 ```
 | 13 | 2:25 | 財布は抱きしめ、背後では砂を他人に配っている男 |
 ```
-a man clutching his wallet tightly to his chest with both arms, while behind his back his other hand casually pours sand from an hourglass into the hands of strangers, a man
+a man clutching his wallet tightly to his chest with both arms, while behind his back his other hand casually pours sand from an hourglass into the hands of strangers
 ```
 | 14 | 2:46 | 夜のベッドでスマホ。画面から砂がこぼれる |
 ```
