@@ -4,8 +4,8 @@
 - 役割: 動画再生中、画面左下に表示するナビゲーターアイコン
 - 見た目: 白髪まじりのツンツン頭、黒ぶちメガネ、ヘッドセット、紺のスーツ、赤いストライプのネクタイ、腕時計、ノートパソコン
 - 絵柄: アニメ寄りのイラスト（本編の挿絵とは別の絵柄）→ ノイズ＋セピア加工でなじませる
-- 素材: `company/assets/majime-no-me/shin-icon-sepia-noise-400.png`（横向き・考え中）
-- 予定: 正面向き・カメラ目線版を作成中
+- 素材（メイン）: `company/assets/majime-no-me/shin-front-sepia-noise-400.png`（正面・微笑み）
+- 素材（予備）: `company/assets/majime-no-me/shin-icon-sepia-noise-400.png`（横向き・考え中）
 - ルール: 左下に表示。エンドカード（最後の約20秒）では外す
 
 ## 本編の登場人物（挿絵）

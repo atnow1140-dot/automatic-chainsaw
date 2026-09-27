@@ -61,6 +61,6 @@
 - サムネイル用の絵 1枚（本編の #16 か #33 を流用も可）
 
 ## ナビゲーターアイコン（シン）
-- 使用ファイル: `company/assets/majime-no-me/shin-icon-sepia-noise-400.png`（ノイズ＋セピア加工・背景透過）
+- 使用ファイル: `company/assets/majime-no-me/shin-front-sepia-noise-400.png`（ノイズ＋セピア加工・背景透過）
 - 位置: 画面左下（下中央は字幕とかぶるため避ける）
 - 表示: オープニング〜まとめまで。最後の約20秒（エンドカード No.32）では外す
