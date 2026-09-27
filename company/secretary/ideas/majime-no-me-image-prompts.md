@@ -181,3 +181,162 @@ a single fresh green sprout growing out of a crack in an old broken hourglass, s
 - 最初に #5（セネカ）と #1（現代の男）を作って気に入ったものを決め、以降はその画像を「参考画像」として添付して生成する
   - ChatGPT：画像を添付して「この画像と同じ画風・同じ人物で」と一言足す
   - Midjourney：`--sref`（画風）と `--cref`（人物）に気に入った画像を指定する
+
+---
+
+## ⑤ 短縮版プロンプト（ChatGPTで最初に共通ルールを送った後、1枚ずつ貼る用）
+
+**No.1**｜0:00〜｜夕暮れの台所で、カレンダーのページが鳥のように飛んでいくのを見る男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man sitting alone at a small kitchen table at dusk, the pages of a wall calendar tearing off and flying away like birds, a cup of cold coffee in front of him. the man is the same tired Japanese man.
+```
+
+**No.2**｜0:17〜｜古代ローマ。急ぐ人々が影のようにすれ違う
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. ancient Rome at dusk, a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes.
+```
+
+**No.3**｜0:38〜｜本から砂時計が木のように生えている（タイトル画面）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. an old leather-bound book lying open on a wooden desk, a large hourglass growing out of its pages like a tree, dim lamplight, dark background.
+```
+
+**No.4**｜0:51〜｜セネカの肖像
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. portrait of Seneca sitting in a dim study surrounded by piles of scrolls, looking straight at the viewer with calm tired eyes. Seneca is the same Seneca.
+```
+
+**No.5**｜1:03〜｜若いネロに教えるセネカ。ネロの影だけが巨大
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. Seneca teaching a young arrogant emperor Nero who wears an oversized golden laurel crown, Nero's shadow on the wall behind is enormous and menacing. Seneca is the same Seneca.
+```
+
+**No.6**｜1:13〜｜荒れた海の小さな岩の島にひとり（追放）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. Seneca standing alone on a tiny rocky island in a stormy gray sea, holding a small hourglass close to his chest. Seneca is the same Seneca.
+```
+
+**No.7**｜1:34〜｜夕日を見つめるセネカの後ろ姿。影が時計の針の形
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. Seneca seen from behind watching a pale sunset, his long shadow on the ground shaped like the hand of a clock. Seneca is the same Seneca.
+```
+
+**No.8**｜1:45〜｜ろうそくの下で手紙を書く。インクが砂になって流れ落ちる
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. Seneca writing a letter with a quill pen by candlelight, the ink flowing off the parchment and turning into falling sand. Seneca is the same Seneca.
+```
+
+**No.9**｜1:54〜｜ため息をつくローマの人々。手の砂時計はほぼ空
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a crowd of Roman citizens with oversized heads sighing wearily, each holding a tiny hourglass that is almost empty.
+```
+
+**No.10**｜2:20〜｜【パート1】天秤。鎖で守られた金貨 vs 無防備な砂時計
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. an old brass balance scale, on one side a pile of gold coins wrapped in heavy chains and padlocks, on the other side an unprotected hourglass.
+```
+
+**No.11**｜2:25〜｜財布は抱きしめ、背後では砂を他人に配っている男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man clutching his wallet tightly to his chest with both arms, while behind his back his other hand casually pours sand from an hourglass into the hands of strangers. the man is the same tired Japanese man.
+```
+
+**No.12**｜2:46〜｜夜のベッドでスマホ。画面から砂がこぼれる
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a dark bedroom at night, a man lying in bed staring at a glowing smartphone, sand pouring out of the phone screen onto the floor. the man is the same tired Japanese man.
+```
+
+**No.13**｜3:04〜｜左：飛んでいく紙幣／右：透けて見えない砂時計
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. split composition, left side a wallet with a banknote clearly drifting away, right side an almost invisible transparent hourglass whose sand vanishes into nothing.
+```
+
+**No.14**｜3:21〜｜巨大な砂時計から砂があふれる浴槽でくつろぐ男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man relaxing carelessly in a bathtub overflowing with sand pouring from a giant hourglass above him, unaware. the man is the same tired Japanese man.
+```
+
+**No.15**｜3:38〜｜静かに燃えるろうそくを見つめる男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a single candle burning slowly on a table, faint numbers carved into the wax, a man watching it silently in the dark. the man is the same tired Japanese man.
+```
+
+**No.16**｜4:04〜｜雨の窓辺。ガラスに映る自分は砂時計を持っている（問いかけ）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man standing by a rainy window at dusk, his reflection in the glass is holding an hourglass while he is not, quiet contemplation. the man is the same tired Japanese man.
+```
+
+**No.17**｜4:15〜｜【パート2】スーツ姿のネズミで満員の電車。人間がひとり
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a crowded rush-hour train packed with identical rats in business suits all staring at wristwatches, one exhausted human man squeezed among them. the man is the same tired Japanese man.
+```
+
+**No.18**｜4:30〜｜皿の上の時計が、他人の手でケーキのように切り分けられる
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a large clock served on a plate like a cake, many hands of strangers reaching in and cutting away slices of it with knives and forks.
+```
+
+**No.19**｜4:52〜｜空の皿に残った小さなひと切れを見つめる男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a tiny last slice of a clock cake left on an empty plate, a man sitting at the table staring at it with a fork in his hand. the man is the same tired Japanese man.
+```
+
+**No.20**｜5:02〜｜止まった時計に囲まれ、待合室で年老いた男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a very old man with white hair and deep wrinkles sitting alone in an empty waiting room, surrounded by many stopped clocks, as if he has been waiting his entire life.
+```
+
+**No.21**｜5:24〜｜文字を習う子どもの横で、巨大な本と格闘する老人
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a small child learning to write letters at a tiny desk, next to an elderly man struggling with an enormous thick book, both lit by the same lamp.
+```
+
+**No.22**｜5:51〜｜暗い部屋の光の筋の中で目を閉じる男
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man standing in a soft beam of light in a dark room with his eyes closed, taking a deep breath, grains of sand floating gently in the air. the man is the same tired Japanese man.
+```
+
+**No.23**｜6:11〜｜【パート3】ほこりとクモの巣に覆われた、開かれない本
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a thick unopened book covered in dust and cobwebs on a shelf, a small spider sleeping peacefully on its cover.
+```
+
+**No.24**｜6:28〜｜霧の先へ続く道。足元の道は砂になって崩れていく
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man walking on a long road that fades into thick fog ahead, while the pavement right under his feet crumbles into sand. the man is the same tired Japanese man.
+```
+
+**No.25**｜6:54〜｜3コマ：積まれたままの本／顔が薄れていく古い写真／開かない窓の先の山
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. triptych panels, left a stack of dusty unread books, center an old faded photograph of friends whose faces are fading away, right a distant mountain seen through a window that has never been opened.
+```
+
+**No.26**｜7:26〜｜時計から小さなひと切れを切り取り、木箱にしまう手
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a pair of gentle hands carefully cutting a small slice out of a clock and placing it into a small wooden box.
+```
+
+**No.27**｜7:39〜｜【まとめ】暗い部屋に朝の光が差し込む
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. morning light pouring through a window into a dim room, dust floating in the light beam, the window slowly opening.
+```
+
+**No.28**｜7:56〜｜巻物から現代の本へ続く本の列。横で古代の賢人たちが読んでいる
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a long line of books stretching across a table from ancient scrolls to modern books, faint ghostly figures of ancient philosophers sitting beside it reading.
+```
+
+**No.29**｜8:10〜｜イヤホンで聴く男の隣に、半透明のセネカ
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a man sitting in a dark room wearing earphones with his eyes closed, a faint translucent Seneca sitting beside him quietly speaking. the man is the same tired Japanese man; Seneca is the same Seneca.
+```
+
+**No.30**｜8:29〜｜湯気の立つお茶、開いた本、小さな砂時計
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a cup of steaming tea, an open book and a small hourglass on a wooden table in warm lamplight, peaceful and still.
+```
+
+**No.31**｜8:49〜｜ひび割れた砂時計から一本の芽（ここだけ緑）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. a single fresh green sprout growing out of a crack in an old broken hourglass, soft morning sunlight behind it, the green sprout is the only vivid color in the image.
+```
