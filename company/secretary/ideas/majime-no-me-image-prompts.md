@@ -39,7 +39,7 @@ a tired middle-aged Japanese man with an oversized head, long pale face, hollow 
 ```
 - **セネカ**
 ```
-Seneca, an elderly Roman philosopher, completely bald on top with no curly hair, short neatly trimmed gray beard, deep-set wise tired eyes, wearing a simple off-white toga, in ancient Rome (not Greece)
+Seneca, an elderly Roman philosopher, completely bald on top with no curly hair, short neatly trimmed gray beard, deep-set wise tired eyes, wearing a simple off-white toga, in ancient Rome (not Greece, no Colosseum)
 ```
 
 ---
@@ -55,7 +55,7 @@ a man sitting alone at a small kitchen table at dusk, the pages of a wall calend
 ```
 | 2 | 0:17 | 古代ローマ。急ぐ人々が影のようにすれ違う |
 ```
-ancient Rome at dusk, a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes
+ancient Rome at dusk (no Colosseum), a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes
 ```
 | 4 | 0:38 | 本から砂時計が木のように生えている（タイトル画面） |
 ```
@@ -193,7 +193,7 @@ Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as
 
 **No.2**｜0:17〜｜古代ローマ。急ぐ人々が影のようにすれ違う
 ```
-Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. ancient Rome at dusk, a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes.
+Flat 2D hand-drawn illustration, NOT realistic, same art style and characters as before, 16:9. ancient Rome at dusk (no Colosseum), a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes.
 ```
 
 **No.3**｜0:38〜｜本から砂時計が木のように生えている（タイトル画面）
