@@ -19,13 +19,18 @@
 
 ## ① 共通スタイル（毎回、シーン文の後ろに貼る）
 ```
-surreal editorial illustration, semi-realistic graphic novel style, detailed ink linework with digital painting, slightly exaggerated uncanny proportions with oversized heads and long faces, symbolic visual metaphor, muted desaturated palette of sepia, umber, olive and dusty gray, warm dim lamplight with deep shadows and soft vignette, quiet melancholic contemplative mood, cinematic composition, subtle paper texture, no text, 16:9 aspect ratio
+2D hand-drawn surreal illustration, NOT realistic, like a panel from a satirical graphic novel, clear ink outlines, flat muted colors with simple shading, caricatured characters with oversized heads, long faces and droopy tired eyes, simplified backgrounds, symbolic visual metaphor, muted palette of sepia, umber, olive and dusty gray, warm dim lamplight, quiet melancholic mood, subtle paper grain, no text, 16:9 aspect ratio
 ```
 
-## ② ネガティブ（入れられるツールのみ）
+## ② 入れないもの
 ```
-text, letters, captions, watermark, logo, blood, gore, weapons, bright saturated colors, anime, cute chibi, 3d render, photorealistic photo
+photorealistic, realistic lighting, cinematic look, motion blur, depth of field, bokeh, detailed realistic background, oil painting, 3d render, text, letters, captions, watermark, logo, blood, gore, weapons, bright saturated colors, anime, cute chibi
 ```
+
+### 2026-09-27 修正：途中からリアル寄りになる問題
+- 原因: 旧スタイルの「semi-realistic」「digital painting」「cinematic composition」「deep shadows」がリアル方向に引っぱっていた。シーン#2の「blurry」も写真っぽいブレを生んでいた
+- 対策: 「2D hand-drawn」「NOT realistic」をプロンプトの先頭に置き、線画＋フラットな塗り・簡略化した背景を指定。リアル系の要素は「入れないもの」に明記
+- ChatGPTは同じチャットで枚数を重ねるほどリアル寄りにずれやすい → 5枚ごとに、気に入った1枚目の画像を添付して「この画風に戻して」と伝える
 
 ## ③ 登場人物（出てくるカットでシーン文に入れる）
 - **現代の男**（視聴者の分身）
@@ -50,7 +55,7 @@ a man sitting alone at a small kitchen table at dusk, the pages of a wall calend
 ```
 | 2 | 0:17 | 古代ローマ。急ぐ人々が影のようにすれ違う |
 ```
-ancient Rome at dusk, a lone man in a toga sitting on marble steps while crowds of citizens rush past him as blurry faceless shadows
+ancient Rome at dusk, a lone man in a toga sitting on marble steps while crowds of citizens rush past him as flat faceless gray silhouettes
 ```
 | 4 | 0:38 | 本から砂時計が木のように生えている（タイトル画面） |
 ```
