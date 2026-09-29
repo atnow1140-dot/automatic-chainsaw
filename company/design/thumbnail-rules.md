@@ -29,5 +29,16 @@ python3 company/design/make_thumbnail.py 背景.png 出力.png "{y:人生}は、
 ```
 `{y:...}` で黄、`{r:...}` で赤、それ以外は白。背景は文字なしの画像を使う。
 
-## 作ったサムネ
+## ENDカード（固定）
+- **シン（正面）** を左に入れる。素材：`assets/shin_front.webp`、フチは水色発光
+- **芽は必ず入れる**：芽の鉢植え（`assets/me_plant.png`）を右下の机の上に置く
+- 文字は右側・中央ぞろえ。「芽」の字は緑
+  - 最後まで、ありがとうございました。
+  - 次の「芽」も、静かにお届けします。
+  - チャンネル登録で、また会いましょう（緑）
+- 背景：あたたかい紙の壁＋木の机
+- 作り方：`python3 company/design/make_endcard.py 出力.png`
+
+## 作ったサムネ・END
+- `endcards/2026-09-29_end.png`：ENDカード（シン版）
 - `thumbnails/2026-09-29_jinsei-mijikakunai.png`：人生は、短くない。

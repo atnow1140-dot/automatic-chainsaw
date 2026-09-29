@@ -47,7 +47,9 @@
 - design（デザイン室）: サムネ制作
   - company/design/thumbnail-rules.md - サムネの固定ルール（色・シンの入れ方）。サムネを作るときは必ずこれに従う
   - company/design/make_thumbnail.py - サムネ生成スクリプト
-  - company/design/assets/ - シンなどの素材
+  - company/design/make_endcard.py - ENDカード生成スクリプト（ENDはシン＋芽が必須）
+  - company/design/assets/ - シン・芽などの素材
+  - company/design/endcards/ - 完成したENDカード
   - company/design/thumbnails/ - 完成したサムネ
 
 ### 運用方針
