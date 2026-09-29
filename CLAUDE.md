@@ -52,6 +52,8 @@
   - company/design/endcards/ - 完成したENDカード
   - company/design/thumbnails/ - 完成したサムネ
   - company/design/make_telop.py, telops/ - 冒頭テロップ（チャンネルのテーマ）
+- production（制作室）: 動画の台本
+  - company/production/scripts/ - 台本（epXX_タイトル.md）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
