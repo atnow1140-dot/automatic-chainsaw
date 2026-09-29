@@ -55,7 +55,7 @@
 - production（制作室）: 動画の台本
   - company/production/scripts/ - 台本（epXX_タイトル.md と同名のPDF）
   - company/production/make_script_pdf.py - 台本をPDFにするスクリプト
-  - company/production/series/ - シリーズ企画（ai-salaryman：47歳、AIで芽が出た。全15話）
+  - company/production/series/ - ショート企画（ai-salaryman：第3話の本編から切り出すショート15本）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
