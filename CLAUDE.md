@@ -51,6 +51,7 @@
   - company/design/assets/ - シン・芽などの素材
   - company/design/endcards/ - 完成したENDカード
   - company/design/thumbnails/ - 完成したサムネ
+  - company/design/make_telop.py, telops/ - 冒頭テロップ（チャンネルのテーマ）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
