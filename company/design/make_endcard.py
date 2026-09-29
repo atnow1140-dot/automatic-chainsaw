@@ -43,8 +43,8 @@ im.alpha_composite(dust.filter(ImageFilter.GaussianBlur(0.6)))
 
 DESK=908
 # ---- 芽の鉢（机の上）＋スポットライト ----
-pl=Image.open(os.path.join(D,'assets','me_plant.png')); pl=pl.crop(pl.getbbox())
-k=1.05; pl=pl.resize((int(pl.width*k),int(pl.height*k)),Image.LANCZOS)
+pl=Image.open(os.path.join(D,'assets','me_plant_anime.png')); pl=pl.crop(pl.getbbox())
+k=300/pl.height; pl=pl.resize((int(pl.width*k),int(pl.height*k)),Image.LANCZOS)
 px=700; py=1000-pl.height
 spot=np.exp(-(((xx-(px+pl.width/2))/260)**2+((yy-(py+pl.height*0.5))/240)**2))
 sp=Image.fromarray((np.clip(spot,0,1)*90).astype(np.uint8)); spl=Image.new('RGBA',im.size,(255,215,140,0)); spl.putalpha(sp)
@@ -72,7 +72,7 @@ im.alpha_composite(s,(1330-s.width//2,H-s.height+p+4))
 d=ImageDraw.Draw(im)
 FB=os.path.join(D,'assets','NotoSansCJKjp-Bold.otf'); FK=os.path.join(D,'assets','NotoSansCJKjp-Black.otf')
 INK=(52,34,20); GREEN=(46,125,50); CREAM=(255,248,230)
-bx=(270,70,1070,400); cx=(bx[0]+bx[2])/2
+bx=(250,70,1090,400); cx=(bx[0]+bx[2])/2
 sh2=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(sh2).rounded_rectangle((bx[0]+8,bx[1]+12,bx[2]+8,bx[3]+12),26,fill=(30,15,0,120))
 im.alpha_composite(sh2.filter(ImageFilter.GaussianBlur(12)))
 pn=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(pn).rounded_rectangle(bx,26,fill=(252,242,220,232),outline=(200,160,90,255),width=3)
@@ -80,10 +80,10 @@ im.alpha_composite(pn); d=ImageDraw.Draw(im)
 def ctxt(parts,font,y):
     w=sum(d.textlength(t,font=font) for t,_ in parts); x=cx-w/2
     for t,c in parts: d.text((x,y),t,font=font,fill=c); x+=d.textlength(t,font=font)
-f1=ImageFont.truetype(FB,42); f2=ImageFont.truetype(FB,34); f3=ImageFont.truetype(FK,34)
-ctxt([('最後まで、ありがとうございました。',INK)],f1,108)
+f1=ImageFont.truetype(FB,40); f2=ImageFont.truetype(FB,34); f3=ImageFont.truetype(FK,34)
+ctxt([('最後までご視聴、ありがとうございました。',INK)],f1,108)
 ctxt([('次の「',INK),('芽',GREEN),('」も、静かにお届けします。',INK)],f2,196)
-t='チャンネル登録で、また会いましょう'
+t=sys.argv[3] if len(sys.argv)>3 else 'チャンネル登録で、一緒に育てていきましょう'
 w=d.textlength(t,font=f3); b=(cx-w/2-36,282,cx+w/2+36,352)
 s3=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(s3).rounded_rectangle((b[0]+3,b[1]+6,b[2]+3,b[3]+6),35,fill=(0,0,0,90))
 im.alpha_composite(s3.filter(ImageFilter.GaussianBlur(5))); d=ImageDraw.Draw(im)
