@@ -12,33 +12,37 @@ bgp = sys.argv[2] if len(sys.argv)>2 else os.path.join(D,'assets','end_bg_study.
 W,H=1920,1080
 rng=np.random.default_rng(3)
 
-# ---- 背景に手を加える ----
-bg=np.array(Image.open(bgp).convert('RGB').resize((W,H),Image.LANCZOS)).astype(np.float32)/255
-# 1) セピア→夕方の金色にグレーディング
-lum=bg.mean(axis=2,keepdims=True)
-shadow=np.array([0.16,0.10,0.07]); high=np.array([1.0,0.86,0.62])
-g=shadow+(high-shadow)*lum**0.95
-bg=g*0.8+bg*np.array([1.0,0.9,0.75])*0.2
+# ---- 背景に手を加える（モノクロ・シャープな線画風） ----
+src=np.array(Image.open(bgp).convert('L').resize((W,H),Image.LANCZOS)).astype(np.float32)/255
 yy,xx=np.mgrid[0:H,0:W].astype(np.float32)
-# 2) デスクライトの灯り（ランプのかさの下）
-lamp=np.exp(-(((xx-330)/330)**2+((yy-620)/260)**2))
-bg+=lamp[...,None]*np.array([0.36,0.20,0.04])
-# 3) 窓からの光を少し強く
+# 1) 線を抽出（XDoG：ペンで描いたようなくっきりした線）
+g1=cv2.GaussianBlur(src,(0,0),0.9); g2=cv2.GaussianBlur(src,(0,0),1.5)
+dog=g1-0.985*g2
+lines=np.where(dog>=-0.004,1.0,1+np.tanh(90*(dog+0.004)))
+lines=np.clip(lines,0,1)
+# 2) 面は明るめのグレー3段階くらいにまとめる（塗りを抑えて線を主役に）
+tone=src
+for _ in range(3): tone=cv2.bilateralFilter(tone,9,0.08,6)
+q=np.round(tone*5)/5
+tone=cv2.GaussianBlur(q*0.7+tone*0.3,(0,0),1.6)
+tone=0.30+0.70*tone**0.8
+# 3) 窓からの光（白く抜く）
 ang=np.deg2rad(-38); proj=xx*np.cos(ang)-yy*np.sin(ang)
 for c,w in [(-150,70),(40,50),(260,80)]:
-    bg+=0.10*np.exp(-((proj-c)/w)**2)[...,None]*np.array([1,0.8,0.5])*(xx<1000)[...,None]
-# 4) 奥行き：少しだけぼかしてシンを浮かせる
-bg=np.clip(bg,0,1)
-bg=cv2.GaussianBlur(bg,(0,0),1.6)
-# 5) 周辺減光
-v=1-0.45*((((xx-W*0.5)/(W*0.62))**2+((yy-H*0.45)/(H*0.75))**2))
-bg=np.clip(bg*np.clip(v,0.35,1)[...,None],0,1)
+    tone+=0.08*np.exp(-((proj-c)/w)**2)*(xx<1000)
+# 4) デスクライトの灯り（白っぽく）
+tone+=0.16*np.exp(-(((xx-330)/300)**2+((yy-620)/240)**2))
+bg=np.clip(tone,0,1)*lines
+# 5) 紙の粒と周辺減光
+bg+=rng.normal(0,0.018,bg.shape)
+v=1-0.35*((((xx-W*0.5)/(W*0.62))**2+((yy-H*0.45)/(H*0.75))**2))
+bg=np.clip(bg*np.clip(v,0.45,1),0,1)
 im=Image.fromarray((bg*255).astype(np.uint8)).convert('RGBA')
 # 6) ほこりの粒（光の中）
 dust=Image.new('RGBA',im.size,(0,0,0,0)); dd=ImageDraw.Draw(dust)
 for _ in range(160):
     x=rng.uniform(0,1050); y=rng.uniform(0,900); r=rng.uniform(1,2.8)
-    dd.ellipse((x-r,y-r,x+r,y+r),fill=(255,230,170,int(rng.uniform(60,170))))
+    dd.ellipse((x-r,y-r,x+r,y+r),fill=(255,255,255,int(rng.uniform(60,170))))
 im.alpha_composite(dust.filter(ImageFilter.GaussianBlur(0.6)))
 
 DESK=908
