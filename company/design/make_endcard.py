@@ -43,14 +43,32 @@ im.alpha_composite(dust.filter(ImageFilter.GaussianBlur(0.6)))
 
 DESK=908
 # ---- 芽の鉢（机の上）＋スポットライト ----
-pl=Image.open(os.path.join(D,'assets','me_plant_anime.png')); pl=pl.crop(pl.getbbox())
-k=300/pl.height; pl=pl.resize((int(pl.width*k),int(pl.height*k)),Image.LANCZOS)
+def outline_glow(img,col,line=4,inner=(5,2.5,0.9),outer=(9,22,1.4),pad=60):
+    """シンと同じ：黒い輪郭線＋ぼかした発光"""
+    big=Image.new('RGBA',(img.width+2*pad,img.height+2*pad),(0,0,0,0)); big.paste(img,(pad,pad),img)
+    a=(np.array(big.split()[3])>128).astype(np.float32)*255
+    e=lambda n: cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(n,n))
+    out=Image.new('RGBA',big.size,(0,0,0,0))
+    gi=cv2.GaussianBlur(cv2.dilate(a,e(inner[0]+2*line)),(0,0),inner[1])*inner[2]
+    go=cv2.GaussianBlur(cv2.dilate(a,e(outer[0]+2*line)),(0,0),outer[1])*outer[2]
+    glow=Image.new('RGBA',big.size,col+(255,)); glow.putalpha(Image.fromarray(np.clip(gi+go,0,255).astype(np.uint8)))
+    out.alpha_composite(glow)
+    if line:
+        k=Image.new('RGBA',big.size,(20,14,10,255))
+        k.putalpha(Image.fromarray(cv2.GaussianBlur(cv2.dilate(a,e(2*line+1)),(0,0),0.8).astype(np.uint8)))
+        out.alpha_composite(k)
+    out.alpha_composite(big)
+    return out,pad
+pl=Image.open(os.path.join(D,'assets','me_plant.png')); pl=pl.crop(pl.getbbox())
+k=290/pl.height; pl=pl.resize((int(pl.width*k),int(pl.height*k)),Image.LANCZOS)
 px=700; py=1000-pl.height
 spot=np.exp(-(((xx-(px+pl.width/2))/260)**2+((yy-(py+pl.height*0.5))/240)**2))
 sp=Image.fromarray((np.clip(spot,0,1)*90).astype(np.uint8)); spl=Image.new('RGBA',im.size,(255,215,140,0)); spl.putalpha(sp)
 im.alpha_composite(spl)
-sh=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(sh).ellipse((px+10,988,px+pl.width+25,1018),fill=(20,10,0,150))
-im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(9))); im.alpha_composite(pl,(px,py))
+sh=Image.new('RGBA',im.size,(0,0,0,0)); ImageDraw.Draw(sh).ellipse((px-5,986,px+pl.width+5,1012),fill=(20,10,0,150))
+im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(9)))
+pg,pp=outline_glow(pl,(255,205,40),line=3)
+im.alpha_composite(pg,(px-pp,py-pp))
 
 # ---- シン（黄色の発光） ----
 mt.SHIN=os.path.join(D,'assets','shin_front.webp')
