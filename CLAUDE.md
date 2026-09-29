@@ -44,6 +44,11 @@
   - company/secretary/todos/ - 日付ごとのtodo
   - company/secretary/ideas/ - アイデア・メモ
   - company/secretary/logs/ - 日報・活動ログ
+- design（デザイン室）: サムネ制作
+  - company/design/thumbnail-rules.md - サムネの固定ルール（色・シンの入れ方）。サムネを作るときは必ずこれに従う
+  - company/design/make_thumbnail.py - サムネ生成スクリプト
+  - company/design/assets/ - シンなどの素材
+  - company/design/thumbnails/ - 完成したサムネ
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
