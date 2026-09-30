@@ -53,9 +53,11 @@
   - company/design/thumbnails/ - 完成したサムネ
   - company/design/make_telop.py, telops/ - 冒頭テロップ（チャンネルのテーマ）
   - company/design/make_quote.py, quotes/ - 「文字」画面（引用の全画面テロップ）
+  - company/design/make_icon.py, icons/ - 左下のシンのアイコン（全画面の透過PNG）
 - production（制作室）: 動画の台本
   - company/production/scripts/ - 台本（epXX_タイトル.md と同名のPDF）
   - company/production/make_script_pdf.py - 台本をPDFにするスクリプト
+  - company/production/epXX_parts/ - 編集用の素材一式と作業工程PDF
   - company/production/series/ - ショート企画（ai-salaryman：第3話の本編から切り出すショート15本）
 
 ### 運用方針

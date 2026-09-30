@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>第1話 作業工程</title>
+<style>
+@font-face{font-family:NR;src:url('../../design/assets/NotoSansCJKjp-Regular.otf')}
+@font-face{font-family:NB;src:url('../../design/assets/NotoSansCJKjp-Bold.otf')}
+@page{size:A4;margin:14mm 15mm 16mm}
+*{box-sizing:border-box}
+body{font-family:NR,sans-serif;color:#2b211a;font-size:10pt;line-height:1.7;margin:0}
+h1{font-family:NB;font-size:20pt;line-height:1.35;margin:0 0 2mm;color:#1c140e}
+.sub{color:#2e7d32;font-family:NB;font-size:10.5pt;margin-bottom:4mm}
+h2{font-family:NB;font-size:13pt;margin:6mm 0 2.5mm;padding:1.5mm 0 1.5mm 4mm;border-left:6px solid #2e7d32;background:#f3efe6;break-after:avoid}
+h2 .t{font-family:NB;font-size:8.5pt;color:#fff;background:#2b211a;border-radius:3mm;padding:.3mm 2.5mm;margin-left:2mm;vertical-align:middle}
+.step{break-inside:avoid;margin-bottom:3mm}
+table{border-collapse:collapse;width:100%;font-size:9.5pt;margin:2mm 0 3mm}
+th{font-family:NB;background:#2b211a;color:#fff;padding:1.3mm 2mm;text-align:left}
+td{padding:1.3mm 2mm;border-bottom:1px solid #e3dccf;vertical-align:top}
+tr:nth-child(even) td{background:#faf7f1}
+ul.ck{list-style:none;padding:0;margin:1mm 0}
+ul.ck li{padding:.6mm 0 .6mm 7mm;position:relative}
+ul.ck li:before{content:'';position:absolute;left:0;top:2.2mm;width:3.6mm;height:3.6mm;border:1.5px solid #6b5a48;border-radius:.8mm}
+ol{margin:1mm 0;padding-left:6mm}
+b,strong{font-family:NB}
+code{font-size:9pt;background:#f3efe6;padding:0 1mm;border-radius:1mm;color:#6b5a48}
+.note{background:#fff7d6;border-left:4px solid #FFD400;padding:1.5mm 3mm;font-size:9pt;margin:2mm 0;border-radius:1mm}
+.warn{background:#fdeaea;border-left:4px solid #EB2323;padding:1.5mm 3mm;font-size:9pt;margin:2mm 0;border-radius:1mm}
+.parts{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin:2mm 0}
+.parts figure{margin:0;font-size:8pt;color:#6b5a48;text-align:center}
+.parts img{width:100%;border-radius:1.5mm;border:1px solid #d8cfbf;background:#bbb}
+.small{font-size:8.5pt;color:#6b5a48}
+.pb{break-before:page}
+</style></head><body>
+
+<h1>第1話「人生は、短くない。」<br>仕上げの作業工程</h1>
+<div class="sub">真面目の芽 ／ 2026-09-30 ／ Vrewで仕上げ → 書き出し → アップ</div>
+
+<h2>全体の流れ<span class="t">目安 合計2〜2.5時間</span></h2>
+<table>
+<tr><th style="width:9mm">順</th><th>やること</th><th style="width:26mm">todo番号</th><th style="width:20mm">目安</th></tr>
+<tr><td>0</td><td>素材をそろえる（ep01_parts フォルダ）</td><td>準備</td><td>5分</td></tr>
+<tr><td>1</td><td>挿絵フォルダの 32.png を差し替える</td><td>①</td><td>2分</td></tr>
+<tr><td>2</td><td>「文字」画面2枚の文言をナレと照らし合わせる</td><td>③</td><td>5分</td></tr>
+<tr><td>3</td><td>Vrewで挿絵を配置リストどおりに置く</td><td>②</td><td>60〜80分</td></tr>
+<tr><td>4</td><td>冒頭テロップを重ねる</td><td>⑤</td><td>5分</td></tr>
+<tr><td>5</td><td>左下にシンのアイコンを重ねる</td><td>④</td><td>5分</td></tr>
+<tr><td>6</td><td>書き出して、通しで見る</td><td>⑥</td><td>20分</td></tr>
+<tr><td>7</td><td>実際の時間を秘書に送る → 概要欄を直す</td><td>⑦</td><td>5分</td></tr>
+<tr><td>8</td><td>YouTubeにアップ（サムネ・概要欄）</td><td>⑧</td><td>15分</td></tr>
+</table>
+<div class="note"><b>順番のコツ：</b>32.pngの差し替えと「文字」画面は、Vrewに入れる<b>前</b>にやる。あとで差し替えるより、最初から正しい絵を置いたほうが早い。</div>
+
+<h2>0. 素材をそろえる<span class="t">5分</span></h2>
+<div class="step">
+<p>GitHubの <code>company/production/ep01_parts/</code> から、下の5つをダウンロードして、挿絵（01〜32.png）と同じフォルダに入れる。</p>
+<div class="parts">
+<figure><img src="32.png"><br><b>32.png</b>：END（シン版）</figure>
+<figure><img src="quote_0028.png"><br><b>quote_0028.png</b>：文字画面 0:28</figure>
+<figure><img src="quote_0209.png"><br><b>quote_0209.png</b>：文字画面 2:09</figure>
+<figure><img src="opening_theme.png"><br><b>opening_theme.png</b>：冒頭テロップ（透過）</figure>
+<figure><img src="shin_icon.png"><br><b>shin_icon.png</b>：左下のシン（透過）</figure>
+</div>
+<ul class="ck">
+<li>5つとも挿絵フォルダに入れた</li>
+<li>配置リスト <code>majime-no-me-video01-vrew-placement.pdf</code> を横に開いた</li>
+</ul>
+</div>
+
+<h2>1. 32.png を差し替える<span class="t">① ／ 2分</span></h2>
+<div class="step">
+<ol>
+<li>挿絵フォルダの古い <code>32.png</code> を、<code>32_old.png</code> に名前を変えてよける（消さない）</li>
+<li>ダウンロードした <code>32.png</code>（シン版END）をそこに置く</li>
+</ol>
+<ul class="ck"><li>32.png を開いて、書斎＋シン＋芽のENDになっている</li></ul>
+</div>
+
+<h2>2. 「文字」画面を確認する<span class="t">③ ／ 5分</span></h2>
+<div class="step">
+<table>
+<tr><th style="width:15mm">時間</th><th>画像</th><th>入っている文言</th></tr>
+<tr><td>0:28</td><td><code>quote_0028.png</code></td><td>人生は、短くない。／私たちが、短くしているだけだ。</td></tr>
+<tr><td>2:09</td><td><code>quote_0209.png</code></td><td>人生は短いのではない。／その多くを浪費しているのだ。</td></tr>
+</table>
+<div class="warn"><b>要チェック：</b>この2つは、台本（15分版）の流れから秘書が<b>予想して</b>作ったもの。ナレーションの文言と違っていたら、使う文を秘書に送ってね。すぐ作り直す。</div>
+<ul class="ck">
+<li>0:28 のナレと文言が合っている</li>
+<li>2:09 のナレと文言が合っている</li>
+</ul>
+</div>
+
+<h2>3. Vrewで挿絵を置く<span class="t">② ／ 60〜80分</span></h2>
+<div class="step">
+<ol>
+<li>配置リストの順に、01.png から1枚ずつ入れる（Vrew上のメニュー「<b>挿入 → 画像・動画</b>」から。バージョンでメニュー名が少し違うかも）</li>
+<li>各画像の<b>表示範囲</b>を、配置リストに書いてあるクリップ（ナレの区切り）に合わせる</li>
+<li>画面の切り替えは<b>ディゾルブ</b>（ふわっと切り替え）で統一</li>
+<li>画像の動きは<b>ゆっくりズーム</b>で統一。1枚目で設定を決めたら、あとは同じ設定で置いていく</li>
+<li>0:28 と 2:09 の位置には、「文字」画面（quote_0028.png／quote_0209.png）を置く</li>
+<li>最後は 32.png（END）。ENDは5秒以上あると、見る人がチャンネル登録ボタンに気づきやすい</li>
+</ol>
+<div class="note"><b>時短のコツ：</b>10枚ごとに一度プレビューして、ずれがないか確認。最後にまとめて見るより、直すところが少なくて済む。</div>
+<ul class="ck">
+<li>01〜32 を全部置いた</li>
+<li>切り替えは全部ディゾルブ</li>
+<li>ズームの速さがそろっている</li>
+</ul>
+</div>
+
+<h2 class="pb">4. 冒頭テロップを重ねる<span class="t">⑤ ／ 5分</span></h2>
+<div class="step">
+<ol>
+<li>タイトル画面（03.png）のあたりに、<code>opening_theme.png</code> を<b>重ねる画像</b>として入れる（背景が透明なので、下の絵が透けて見える）</li>
+<li>表示は<b>3〜4秒</b>。フェードイン・フェードアウトで静かに出す</li>
+</ol>
+<ul class="ck"><li>「あなたの人生に、小さな気づきの芽を。」が画面の真ん中に読める</li></ul>
+</div>
+
+<h2>5. 左下にシンのアイコン<span class="t">④ ／ 5分</span></h2>
+<div class="step">
+<ol>
+<li><code>shin_icon.png</code> を<b>重ねる画像</b>として入れる。画面と同じ大きさ（1920×1080）で作ってあるので、<b>位置合わせは不要</b>。全画面に広げるだけで左下に来る</li>
+<li>表示範囲：<b>動画の最初 〜 ENDの直前</b>まで</li>
+<li><b>ENDでは外す</b>（ENDには大きなシンがいるので、2人になってしまう）</li>
+</ol>
+<div class="note">冒頭テロップやタイトル画面とかぶって気になる場合は、そこだけ外してもOK。</div>
+<ul class="ck">
+<li>本編の間ずっと、左下にシンがいる</li>
+<li>ENDにはアイコンが出ていない</li>
+</ul>
+</div>
+
+<h2>6. 書き出して、通しで見る<span class="t">⑥ ／ 20分</span></h2>
+<div class="step">
+<ol>
+<li>書き出し：<b>MP4、1920×1080（1080p）</b></li>
+<li>書き出した動画を最初から最後まで通しで見る。スマホで見るとYouTubeで見るときの感じに近くなる</li>
+</ol>
+<ul class="ck">
+<li>字幕に誤字・変な区切りがない</li>
+<li>絵とナレがずれていない（とくに「文字」画面2か所）</li>
+<li>画面が真っ黒になる瞬間がない</li>
+<li>（BGMを入れているなら）BGMとナレの音量バランスがちょうどいい</li>
+<li>シンのアイコンがENDで消えている</li>
+<li><b>動画の長さ</b>と、目次の9か所の実際の時間をメモした</li>
+</ul>
+</div>
+
+<h2>7. 概要欄の時間を直す<span class="t">⑦ ／ 5分</span></h2>
+<div class="step">
+<p>メモした時間を秘書に送る → 秘書が <code>ep01_description.md</code> の目次と「9分間」の表記を直す。</p>
+<table>
+<tr><th>目次</th><th style="width:22mm">予定</th><th style="width:30mm">実際（メモ）</th></tr>
+<tr><td>気づけば、また一週間</td><td>0:00</td><td>0:00</td></tr>
+<tr><td>セネカ『人生の短さについて』</td><td>0:38</td><td></td></tr>
+<tr><td>セネカはどんな人？</td><td>0:51</td><td></td></tr>
+<tr><td>友人パウリヌスへの手紙</td><td>1:45</td><td></td></tr>
+<tr><td>お金は守るのに、時間は配ってしまう</td><td>2:20</td><td></td></tr>
+<tr><td>忙しさに追われる人</td><td>4:15</td><td></td></tr>
+<tr><td>人生最大の浪費「先延ばし」</td><td>6:11</td><td></td></tr>
+<tr><td>人生を長くするには</td><td>7:39</td><td></td></tr>
+<tr><td>エンディング</td><td>8:56</td><td></td></tr>
+<tr><td><b>動画の長さ</b></td><td>約9分</td><td></td></tr>
+</table>
+<p class="small">※8分弱に収まったら、概要欄の「静かに考える9分間です」も直す。</p>
+</div>
+
+<h2>8. アップロード<span class="t">⑧ ／ 15分</span></h2>
+<div class="step">
+<ol>
+<li>タイトル：<b>人生は、短くない。― 2000年前の哲学者セネカの答え</b></li>
+<li>サムネ：<code>company/design/thumbnails/2026-09-29_jinsei-mijikakunai.png</code></li>
+<li>概要欄：<code>ep01_description.md</code> の「ここから下をそのままコピペ」の部分（⑦で直したもの）</li>
+</ol>
+<ul class="ck">
+<li>サムネが設定されている</li>
+<li>概要欄の目次が、クリックで正しい場所に飛ぶ</li>
+<li>公開（または予約）した</li>
+</ul>
+</div>
+
+</body></html>
