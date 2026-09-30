@@ -50,6 +50,11 @@ python3 company/design/make_thumbnail.py 背景.png 出力.png "{y:人生}は、
 - 素材：`telops/opening_theme.png`（透過PNG。動画編集ソフトで映像に重ねる）
 - 作り方：`python3 company/design/make_telop.py 出力.png [見本用の背景]`
 
+## 「文字」画面（引用を1枚で見せる）
+- 黒背景（`#0C0C0C`、周辺減光）に白文字、強調は黄・赤（サムネと同じ色ルール）。下に出典をグレーで小さく
+- 作り方：`python3 company/design/make_quote.py 出力.png "{y:人生}は短いのではない。" "その多くを{r:浪費}しているのだ。" --by "セネカ『人生の短さについて』"`
+- 完成品は `quotes/` に置く
+
 ## 作ったサムネ・END
 - `endcards/2026-09-29_end.png`：ENDカード（書斎・シン黄発光版）
 - `thumbnails/2026-09-29_jinsei-mijikakunai.png`：人生は、短くない。

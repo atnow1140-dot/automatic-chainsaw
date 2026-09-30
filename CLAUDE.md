@@ -52,6 +52,7 @@
   - company/design/endcards/ - 完成したENDカード
   - company/design/thumbnails/ - 完成したサムネ
   - company/design/make_telop.py, telops/ - 冒頭テロップ（チャンネルのテーマ）
+  - company/design/make_quote.py, quotes/ - 「文字」画面（引用の全画面テロップ）
 - production（制作室）: 動画の台本
   - company/production/scripts/ - 台本（epXX_タイトル.md と同名のPDF）
   - company/production/make_script_pdf.py - 台本をPDFにするスクリプト
