@@ -1,0 +1,22 @@
+@page{size:A4;margin:16mm 14mm 18mm;@bottom-right{content:counter(page)}}
+*{box-sizing:border-box}
+body{font-family:'IPAGothic','Noto Sans CJK JP',sans-serif;color:#3a2f26;font-size:9.5pt;line-height:1.6;margin:0}
+h1{font-size:18pt;font-weight:normal;margin:0 0 1mm;color:#2b211a}
+.sub{font-size:8.5pt;color:#8a7b6b;margin-bottom:4mm}
+h2{font-size:13pt;font-weight:normal;color:#5b7a4a;margin:5mm 0 2mm}
+ul{list-style:none;padding:0;margin:0 0 2mm}
+ul li{padding-left:1.2em;text-indent:-1.2em}
+ul li:before{content:'・ '}
+table{border-collapse:collapse;width:100%;font-size:8.5pt;margin-left:2mm;width:calc(100% - 4mm)}
+th{background:#f3efe6;font-weight:normal;text-align:left;padding:1.5mm 2mm;border:1px solid #e0d7c8}
+td{padding:1.5mm 2mm;border:1px solid #e0d7c8;vertical-align:top}
+tr{break-inside:avoid}
+thead{display:table-header-group}
+td.m{font-family:'IPAGothic',monospace;white-space:nowrap}
+tr.moji td{background:#f6f3ee}
+td img{display:block;width:34mm;margin-bottom:1mm;border:1px solid #d8cfbf;border-radius:1mm;background:#bbb}
+.b{display:block;width:fit-content;font-size:7pt;color:#fff;border-radius:2mm;padding:0 1.5mm;margin-top:.8mm}
+.b.sasi{background:#c0392b}
+.b.kasa{background:#2e7d32}
+tr.sasi td{background:#fdf1ef}
+tr.kasa td{background:#f0f6ee}
