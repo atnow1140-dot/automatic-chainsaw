@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>第◯話 作業工程</title>
+<style>
+/* フォントは Noto Sans CJK JP を優先。なければ IPAゴシック にフォールバック */
+@font-face{font-family:NR;src:local('Noto Sans CJK JP'),local('NotoSansCJKjp-Regular'),url('NotoSansCJKjp-Regular.otf'),local('IPAPGothic')}
+@font-face{font-family:NB;src:local('Noto Sans CJK JP Bold'),local('NotoSansCJKjp-Bold'),url('NotoSansCJKjp-Bold.otf'),local('IPAPGothic');font-weight:normal}
+@page{size:A4;margin:14mm 15mm 16mm}
+*{box-sizing:border-box}
+body{font-family:NR,sans-serif;color:#2b211a;font-size:10pt;line-height:1.7;margin:0}
+h1{font-family:NB;font-size:20pt;line-height:1.35;margin:0 0 2mm;color:#1c140e}
+.sub{color:#2e7d32;font-family:NB;font-size:10.5pt;margin-bottom:4mm}
+h2{font-family:NB;font-size:13pt;margin:6mm 0 2.5mm;padding:1.5mm 0 1.5mm 4mm;border-left:6px solid #2e7d32;background:#f3efe6;break-after:avoid}
+h2 .t{font-family:NB;font-size:8.5pt;color:#fff;background:#2b211a;border-radius:3mm;padding:.3mm 2.5mm;margin-left:2mm;vertical-align:middle}
+.step{break-inside:avoid;margin-bottom:3mm}
+table{border-collapse:collapse;width:100%;font-size:9.5pt;margin:2mm 0 3mm}
+th{font-family:NB;background:#2b211a;color:#fff;padding:1.3mm 2mm;text-align:left}
+td{padding:1.3mm 2mm;border-bottom:1px solid #e3dccf;vertical-align:top}
+tr:nth-child(even) td{background:#faf7f1}
+ul.ck{list-style:none;padding:0;margin:1mm 0}
+ul.ck li{padding:.6mm 0 .6mm 7mm;position:relative}
+ul.ck li:before{content:'';position:absolute;left:0;top:2.2mm;width:3.6mm;height:3.6mm;border:1.5px solid #6b5a48;border-radius:.8mm}
+ol{margin:1mm 0;padding-left:6mm}
+b,strong{font-family:NB;font-weight:normal}
+code{font-size:9pt;background:#f3efe6;padding:0 1mm;border-radius:1mm;color:#6b5a48}
+.note{background:#fff7d6;border-left:4px solid #FFD400;padding:1.5mm 3mm;font-size:9pt;margin:2mm 0;border-radius:1mm}
+.warn{background:#fdeaea;border-left:4px solid #EB2323;padding:1.5mm 3mm;font-size:9pt;margin:2mm 0;border-radius:1mm}
+.parts{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin:2mm 0}
+.parts figure{margin:0;font-size:8pt;color:#6b5a48;text-align:center}
+.parts img{width:100%;border-radius:1.5mm;border:1px solid #d8cfbf;background:#bbb}
+.small{font-size:8.5pt;color:#6b5a48}
+.pb{break-before:page}
+</style></head><body>
+
+<!-- ===== 1. タイトル ===== -->
+<h1>第◯話「タイトル」<br>仕上げの作業工程</h1>
+<div class="sub">真面目の芽 ／ YYYY-MM-DD ／ Vrewで仕上げ → 書き出し → アップ</div>
+
+<!-- ===== 2. 全体の流れ ===== -->
+<h2>全体の流れ<span class="t">目安 合計◯時間</span></h2>
+<table>
+<tr><th style="width:9mm">順</th><th>やること</th><th style="width:26mm">todo番号</th><th style="width:20mm">目安</th></tr>
+<tr><td>0</td><td>素材をそろえる（epXX_parts フォルダ）</td><td>準備</td><td>5分</td></tr>
+<tr><td>1</td><td>（工程）</td><td>①</td><td>◯分</td></tr>
+</table>
+<div class="note"><b>順番のコツ：</b>（先にやると楽になること）</div>
+
+<!-- ===== 3. 工程ごとのセクション（必要なだけ繰り返す） ===== -->
+<h2>0. 素材をそろえる<span class="t">5分</span></h2>
+<div class="step">
+<p><code>epXX_parts</code> の素材を、挿絵と同じフォルダに入れる。</p>
+<div class="parts">
+<figure><img src="example.png"><br><b>example.png</b>：用途</figure>
+</div>
+<ul class="ck">
+<li>素材を全部フォルダに入れた</li>
+</ul>
+</div>
+
+<h2>1. （工程名）<span class="t">① ／ ◯分</span></h2>
+<div class="step">
+<ol>
+<li>手順を短く</li>
+</ol>
+<div class="note"><b>時短のコツ：</b>…</div>
+<ul class="ck"><li>確認すること</li></ul>
+</div>
+
+<!-- ===== 4. 書き出し・通し確認 ===== -->
+<h2>◯. 書き出して、通しで見る<span class="t">◯ ／ 20分</span></h2>
+<div class="step">
+<ol>
+<li>書き出し：<b>MP4、1920×1080（1080p）</b></li>
+<li>最初から最後まで通しで見る（スマホで見るとYouTubeの見え方に近い）</li>
+</ol>
+<ul class="ck">
+<li>字幕に誤字・変な区切りがない</li>
+<li>絵とナレがずれていない</li>
+<li>画面が真っ黒になる瞬間がない</li>
+<li><b>動画の長さ</b>と、目次の実際の時間をメモした</li>
+</ul>
+</div>
+
+<!-- ===== 5. 概要欄の時間 ===== -->
+<h2>◯. 概要欄の時間を直す<span class="t">◯ ／ 5分</span></h2>
+<div class="step">
+<p>メモした時間を秘書に送る → 秘書が <code>epXX_description.md</code> の目次を直す。</p>
+<table>
+<tr><th>目次</th><th style="width:22mm">予定</th><th style="width:30mm">実際（メモ）</th></tr>
+<tr><td>オープニング</td><td>0:00</td><td>0:00</td></tr>
+<tr><td><b>動画の長さ</b></td><td>約◯分</td><td></td></tr>
+</table>
+</div>
+
+<!-- ===== 6. アップロード ===== -->
+<h2>◯. アップロード<span class="t">◯ ／ 15分</span></h2>
+<div class="step">
+<ol>
+<li>タイトル：<b>（タイトル）</b></li>
+<li>サムネ：<code>company/design/thumbnails/（ファイル名）.png</code></li>
+<li>概要欄：<code>epXX_description.md</code> のコピペ部分</li>
+</ol>
+<ul class="ck">
+<li>サムネが設定されている</li>
+<li>概要欄の目次が、クリックで正しい場所に飛ぶ</li>
+<li>公開（または予約）した</li>
+</ul>
+</div>
+
+</body></html>

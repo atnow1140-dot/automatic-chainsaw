@@ -9,7 +9,7 @@
 - YouTube動画の作成
 - 動画構成・ネタ出し・台本
 - 動画の作業手順は「作業工程PDF」の形式で渡す（画像の差し替え・プレビュー入り）。
-  フォーマット: company/production/templates/work-steps-format.md
+  スキル: .claude/skills/work-steps-pdf/
 
 ## 保留中
 - Instagram関連は当分後回し（2026-10-01〜）。フウガから話が出るまで提案・todoに入れない
