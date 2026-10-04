@@ -1,0 +1,13 @@
+{
+  "name": "transcribe",
+  "private": true,
+  "type": "module",
+  "description": "録音ファイルを日本語で文字起こしする（Whisper small / ローカル実行）",
+  "scripts": {
+    "transcribe": "node transcribe.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "sts-whisper-small": "1.0.0"
+  }
+}

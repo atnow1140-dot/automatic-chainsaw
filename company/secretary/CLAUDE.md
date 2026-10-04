@@ -20,6 +20,9 @@
 - logs/YYYY-MM-DD.md にその日のログを記録
 - todoの完了状況と合わせて1日のまとめを作る
 
+### 文字起こし
+- 録音・動画ファイルが送られてきたら tools/transcribe/ で文字起こしする（使い方は tools/transcribe/README.md）
+
 ### スケジュール提案
 - todoの内容を見て、優先順位と時間配分を提案
 
