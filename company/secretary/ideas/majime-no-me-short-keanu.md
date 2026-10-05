@@ -250,3 +250,10 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 - 絵: No.1（刃を研ぐ少年の後ろ姿）
 - 文字: 大「最初の仕事は／刃を研ぐこと」＋小「キアヌ・リーヴス」
 - 配置: 上1/3に文字（薄いグレーの帯に黒文字）、少年と火花は隠さない
+
+### 追加カット No.11（キアヌと分かるシルエット）※2026-10-05 決定
+- 方針: 顔は描かず、長い黒髪・ひげ・黒いスーツ・横顔の影という「記号」で本人を連想させる。サムネには使わない
+- 使う場所: 「それから 時がたって／彼は 世界中が知る俳優になった」（No.5 と No.6 の間）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a lone man in a black suit and black tie standing in the rain at night under a single street lamp, long dark shoulder-length hair and a short dark beard, seen in side profile almost entirely in shadow so the face has no detailed features, calm and quiet presence, iconic silhouette. No text, no logos.
+```
