@@ -298,3 +298,4 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 - サムネ: 黄色と赤は「いちばん伝えたい一語」だけに使う。案A＝「刃を研ぐこと」を黄色の帯＋「刃」だけ赤／案B＝「刃を研ぐこと」を赤文字＋名前を黄色の帯
 - 動画内の字幕（セリフ）: 基本は白。キーワードだけ黄色、1本の動画で赤は2〜3回まで（例：「刃」「ゴールテープ」「選べる」）
 - 理由: 色を使いすぎると、どこも目立たなくなり、真面目の芽の落ち着いた雰囲気も崩れる
+- ✅ サムネ決定: 案A → `company/assets/majime-no-me/keanu/thumbnail-final.png`（この色ルールは全動画共通に昇格 → majime-no-me-style-guide.md）
