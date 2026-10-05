@@ -257,3 +257,4 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 ```
 Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a lone man in a black suit and black tie standing in the rain at night under a single street lamp, long dark shoulder-length hair and a short dark beard, seen in side profile almost entirely in shadow so the face has no detailed features, calm and quiet presence, iconic silhouette. No text, no logos.
 ```
+- ✅ 採用（2026-10-05）：雨の夜・街灯の下・うつむいた横顔。あえてセピアから外し、暗い夜の色で「少年→世界的スター」の転換を見せる。前後のカットとはディゾルブでゆっくりつなぐ
