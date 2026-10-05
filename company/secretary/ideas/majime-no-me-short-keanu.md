@@ -160,3 +160,93 @@
 | 4か月 | よんかげつ | 「よんかげつ」とひらがなに |
 | 12人 | じゅうににん | 「じゅうににん」とひらがなに |
 | 体を張った | からだをはった | ― |
+
+## 山場カット（ChatGPT用・10枚）
+### 実在の人物の扱い
+- キアヌ本人の顔は描かない（後ろ姿・手元・シルエットのみ）。実在の有名人の顔をAIで描くと、ChatGPTに断られやすいうえ、肖像権・パブリシティ権の問題や「本人公認」と誤解されるリスクがある
+- バイクはメーカーのロゴを描かない
+- 画風は真面目の芽の共通ルール（下の「最初に送る文」）
+
+### 最初に送る文（新しいチャットで1回）
+```
+これから、YouTubeショート用に、同じ画風で縦長（9:16）の挿絵を10枚作ります。以下のルールを、このチャットのすべての画像に適用してください。
+
+【画風】
+2D hand-drawn surreal illustration, NOT realistic, like a panel from a satirical graphic novel, clear ink outlines, flat muted colors with simple shading, simplified backgrounds, symbolic visual metaphor, muted palette of sepia, umber, olive and dusty gray, warm dim lamplight, quiet melancholic mood, subtle paper grain, no text, 9:16 vertical
+
+【入れないもの】
+photorealistic, realistic lighting, cinematic look, motion blur, depth of field, bokeh, 3d render, text, letters, logos, brand names, bright saturated colors, anime, cute chibi
+
+【人物】
+実在の人物の顔は描かないでください。主人公は「長めの黒髪の若い男性」で、後ろ姿・横顔の影・手元だけで表現してください。
+
+理解したら「OK」とだけ返してください。
+```
+
+### 1枚ずつ貼るプロンプト
+| No | 場面（ナレーション） | 役割 |
+|---|---|---|
+| 1 | スケートリンクで刃を研ぐ | オープニング・サムネ候補 |
+| 2 | 誰かが気持ちよく滑れるように | 見えない仕事 |
+| 3 | 15歳、制作アシスタント | 裏方 |
+| 4 | カメラを押す人、ケーブルを巻く人… | たくさんの手 |
+| 5 | 一人のスターでは動かない | 比喩の決め絵 |
+| 6 | スタントチーム12人にハーレー | 感謝 |
+| 7 | 49歳、4か月の練習 | 努力 |
+| 8 | ゴールテープはどこにもない | 転換 |
+| 9 | そっと差し出せる | 余白 |
+| 10 | 小さな芽を選べる道に | ラスト・サムネ候補 |
+
+**No.1**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a dim back room of an old ice rink, a teenage boy with long dark hair seen from behind, carefully sharpening an ice skate blade on a grinding wheel, small sparks flying, through a window behind him the bright rink where people glide on the ice. No face shown, no text.
+```
+**No.2**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. close-up of an ice skate gliding across the ice, the sharp blade leaving one clean thin line on the surface, in the dark corner of the frame a quiet sharpening bench and a pair of tired hands resting. No text.
+```
+**No.3**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. backstage of a busy 1980s film set, a teenage boy with long dark hair seen from behind, carrying a heavy box of cables behind the camera, huge studio lights glowing in front, crew members as simple silhouettes. No face shown, no text.
+```
+**No.4**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. four stacked panels of hands at work on a film set: hands pushing a camera dolly, hands coiling a cable, hands holding up a boom microphone, a hand holding a stopwatch. No faces, no text.
+```
+**No.5**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a glowing movie screen showing a single small hero silhouette, and underneath the screen dozens of anonymous hands holding the whole screen up from below in the dark, symbolic. No text.
+```
+**No.6**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. twelve classic American cruiser motorcycles lined up in a row inside a quiet warehouse at dusk, each with a small ribbon on the handlebar, a group of stunt performers as warm silhouettes looking at them in surprise. No logos, no brand names, no text.
+```
+**No.7**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a training gym in early morning light, a middle-aged man with long dark hair and a short beard seen from behind, sweating on a judo mat while practicing a throw with an instructor, a calendar on the wall with many days crossed out. No face shown, no text or numbers.
+```
+**No.8**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a long empty running track stretching into the distance with no finish line anywhere, a lone runner pausing to catch his breath, then looking ahead calmly, soft dusk light. No text.
+```
+**No.9**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. on a cluttered work table, one person's hands have stopped, holding their head, while another pair of hands quietly slides a neatly organized tool tray toward them, warm lamplight, gentle and kind mood. No faces, no text.
+```
+**No.10**
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an old ice skate resting on the ice at dawn, beside its shining blade a single fresh green sprout grows out of a small crack in the ice, the green sprout is the only vivid color in the image, quiet hopeful mood. No text.
+```
+
+## タイトル・サムネ（案）
+### タイトル
+| 案 | タイトル | ねらい |
+|---|---|---|
+| **A（おすすめ）** | キアヌ・リーヴスの最初の仕事は、スケート靴の刃を研ぐことだった | 有名人の名前で検索に強い＋「え？」の意外性。台本の冒頭とも一致 |
+| B | キアヌ・リーヴスが、名前の出ない12人に贈ったもの | 「何を贈った？」で気になって見る。感動系 |
+| C | 成功しても、ゴールテープはどこにもない｜キアヌ・リーヴス | メッセージ重視。保存・共有されやすい |
+
+### サムネ（ショートは縦型。アプリからカスタムサムネを設定）
+- 絵: No.1（刃を研ぐ少年の後ろ姿）
+- 文字: 大「最初の仕事は／刃を研ぐこと」＋小「キアヌ・リーヴス」
+- 配置: 上1/3に文字（薄いグレーの帯に黒文字）、少年と火花は隠さない
