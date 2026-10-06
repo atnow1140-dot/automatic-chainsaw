@@ -44,6 +44,14 @@
   - company/secretary/todos/ - 日付ごとのtodo
   - company/secretary/ideas/ - アイデア・メモ
   - company/secretary/logs/ - 日報・活動ログ
+- assets（素材置き場）: 動画用の画像・アイコンなど
+  - company/assets/majime-no-me/ - 「真面目の芽」の素材（シンのアイコン、サムネ下書きなど）
+
+### 進行中のプロジェクト
+- 真面目の芽（YouTube・大人のための静かな学び）: 企画・台本・プロンプト等は company/secretary/ideas/majime-no-me-*.md
+  - **サムネ・字幕を作るときは必ず company/secretary/ideas/majime-no-me-style-guide.md に従う**（黄色と赤のアクセント：伝えたい一語を黄色、核の一語だけ赤）
+  - **動画の最終成果物は、字幕の色まで入れたA4・1枚の「画像配置表」PDF**（作り方は style-guide.md の「最終成果物の形式」）
+- 海外向けショート動画（Japan Cities・アメリカ向け・47都道府県）: company/projects/overseas-shorts/（作業前に同フォルダの CLAUDE.md を読む）
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
