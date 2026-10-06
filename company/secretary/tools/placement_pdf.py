@@ -3,7 +3,7 @@
 使い方:
     python3 company/secretary/tools/placement_pdf.py company/secretary/ideas/specs/<動画>-placement.json
 
-spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
+spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"|"PHOTO"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
 字幕の色ルールは company/secretary/ideas/majime-no-me-style-guide.md
 """
 import json
@@ -23,7 +23,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 pdfmetrics.registerFont(TTFont("JP", "/usr/share/fonts/opentype/ipafont-gothic/ipag.ttf"))
 
 INK, MUTED, ACC = colors.HexColor("#2b2620"), colors.HexColor("#6b6258"), colors.HexColor("#5a7a4a")
-ADD_BG, HEAD_BG, GRID = colors.HexColor("#e6efdc"), colors.HexColor("#efe9df"), colors.HexColor("#d8d0c4")
+ADD_BG, PHOTO_BG, HEAD_BG, GRID = colors.HexColor("#e6efdc"), colors.HexColor("#dfe9f3"), colors.HexColor("#efe9df"), colors.HexColor("#d8d0c4")
 YELLOW, RED = "#F5C828", "#BE1E1E"
 
 
@@ -65,13 +65,19 @@ def build(spec_path):
     red_count = 0
     for i, (text, img, kind, how, cols) in enumerate(spec["rows"], 1):
         red_count += len(cols.get("r", []))
-        is_add = kind == "ADD"
-        img_label = f'<font color="#3f6b2a">{escape(img)}.png</font>' if is_add else f"{escape(img)}.png"
-        kind_label = '<font color="#3f6b2a">追加生成</font>' if is_add else "ChatGPT"
+        is_add, is_photo = kind == "ADD", kind == "PHOTO"
+        if is_photo:
+            img_label = f'<font color="#2a4f73">{escape(img)}</font>'
+            kind_label = '<font color="#2a4f73">実写写真</font>'
+        elif is_add:
+            img_label = f'<font color="#3f6b2a">{escape(img)}.png</font>'
+            kind_label = '<font color="#3f6b2a">追加生成</font>'
+        else:
+            img_label, kind_label = f"{escape(img)}.png", "ChatGPT"
         data.append([Paragraph(str(i), C), Paragraph(escape(text), C), Paragraph(img_label, C),
                      Paragraph(kind_label, C), Paragraph(escape(how), C), Paragraph(subtitle_cell(cols), C)])
-        if is_add:
-            ts.append(("BACKGROUND", (0, i), (-1, i), ADD_BG))
+        if is_add or is_photo:
+            ts.append(("BACKGROUND", (0, i), (-1, i), PHOTO_BG if is_photo else ADD_BG))
     if red_count > 3:
         print(f"注意: 赤の字幕が{red_count}回あります（ルールは1本につき2〜3回まで）")
 
@@ -86,6 +92,13 @@ def build(spec_path):
         et.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), ADD_BG), ("GRID", (0, 0), (-1, -1), 0.3, GRID),
                                 ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2)]))
         story.append(et)
+    if spec.get("photos"):
+        story.append(Paragraph(escape(spec.get("photos_title", "実写写真（クレジット必須）")), H2))
+        pt = Table([[Paragraph(escape(c), C) for c in r] for r in spec["photos"]],
+                   colWidths=[30 * mm, 70 * mm, 82 * mm])
+        pt.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), PHOTO_BG), ("GRID", (0, 0), (-1, -1), 0.3, GRID),
+                                ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2)]))
+        story.append(pt)
     story.append(Paragraph("メモ", H2))
     story += [Paragraph("・" + escape(n), C) for n in spec.get("notes", [])]
 

@@ -27,10 +27,11 @@
 - 挿絵の画風・プロンプト: majime-no-me-image-prompts.md
 - キャラクター（シン・三枚目の男など）: majime-no-me-characters.md
 - 実在の人物は顔をそっくりに描かない（後ろ姿・シルエット・記号で表現）
+  - 本人の顔を見せたいときは、Wikimedia Commonsの自由ライセンス写真（CC BY / CC BY-SA）だけを使い、キャプションにクレジットを入れる（2026-10-06 キアヌ回で採用）
 - 事実は出典を確認できたものだけ台本に入れる
 
 ## 最終成果物の形式（全動画共通）※2026-10-05 決定
 - 動画ごとに **A4・1枚の「画像配置表」PDF** を最後に必ず作る
-- 列: 順／台本（この文から切り替える）／画像／種類（ChatGPT・追加生成）／見せ方／**字幕の色**（黄＝キーワード、赤＝テーマの一語）
+- 列: 順／台本（この文から切り替える）／画像／種類（ChatGPT・追加生成・実写写真）／見せ方／**字幕の色**（黄＝キーワード、赤＝テーマの一語）
 - 作り方: `company/secretary/ideas/specs/<動画>-placement.json` を書いて、`python3 company/secretary/tools/placement_pdf.py <spec>` を実行（赤が3回を超えると警告が出る）
 - 見本: `company/secretary/ideas/majime-no-me-short-keanu-placement.pdf`
