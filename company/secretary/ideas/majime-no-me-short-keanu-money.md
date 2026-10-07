@@ -369,3 +369,19 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 - 冒頭「世界的なスター」→P2、「キアヌ・リーヴス」→P1、「彼には…」→M10
 - 加工: 縦1080×1920、ぼかした背景＋生成りの細い枠＋セピア35%＋ノイズで挿絵となじませた
 - **公開前に必須**: 2枚の入手元を確認する。Wikimedia Commons などのCCライセンスなら、概要欄に「写真：作者名／ライセンス名／出典URL」を書く。ライセンスが分からない写真（ニュースサイト・SNS・検索画像）は使わない
+
+## 実写2枚の出典（2026-10-07 調査）
+| 画像 | 出典（Wikimedia Commons） | 作者 | ライセンス | 確度 |
+|---|---|---|---|---|
+| P1 本人の写真 | Fantastic Fest 2013『Man of Tai Chi』Q&A（米オースティン、2013年9月21日）の写真。写真の撮影データ（2013/9/21 19:57、Canon EOS 5D Mark II）が同イベントの Commons 写真と一致 | Anna Hanks（Flickr: annainaustin） | CC BY 2.0 | 高い（ファイル名は要確認：「Keanu Reeves (10615489493).jpg」または「Keanu Reeves 2013 (10615146086) (cropped).jpg」） |
+| P2 ハリウッドの星 | File:Keanu Reeves Star.jpg | Michael Labowicz（Flickr） | CC BY-SA 2.0 | 高い |
+
+### 概要欄に入れるクレジット
+```
+写真：
+Keanu Reeves at Fantastic Fest 2013 / Photo by Anna Hanks / CC BY 2.0 / Wikimedia Commons
+Keanu Reeves Star / Photo by Michael Labowicz / CC BY-SA 2.0 / Wikimedia Commons
+※いずれも色調・トリミングを加工して使用
+```
+- CC BY / CC BY-SA は商用利用OK。条件は「作者名・ライセンス・出典の表示」と「加工したことの明記」
+- CC BY-SA（P2）は、加工した画像そのものを配布する場合に同じライセンスを付ける必要がある（動画内で使う分には、上のクレジット表記で対応）
