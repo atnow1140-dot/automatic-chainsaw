@@ -12,7 +12,154 @@
 
 ---
 
-## 台本
+## 台本（決定稿 v2・テンポ改行＋間）
+- 改行＝字幕の切り替え／空行＝短い間（約0.5秒）／【間◯秒】＝ためる間（Vrewで無音を入れる）
+
+世界的なスター
+キアヌ・リーヴス
+
+彼には
+少し変わった
+お金の使い方がある
+
+【間1秒】
+
+自分の取り分を
+人に 回してしまうんだ
+
+【間1秒】
+
+ある映画で
+制作側は
+名優アル・パチーノを
+どうしても 迎えたかった
+
+でも
+予算が 足りない
+
+【間1秒】
+
+そこで 彼は
+自分のギャラを
+大きく 減らした
+
+憧れの人と
+同じ画面に 立つために
+
+【間1秒】
+
+『マトリックス』の続編
+
+彼は
+映画が当たったときに受け取る
+成功報酬の 取り分を持っていた
+
+その多くを
+特殊効果と
+衣装のチームに
+回した
+
+【間1秒】
+
+関係者は こう語っている
+
+「この映画を 作ったのは
+彼らだと
+彼は 感じていたんだ」
+
+【間1.5秒】
+
+格闘シーンを 撮り終えた日
+
+スタントチーム 12人に
+バイクを
+一台ずつ
+
+【間1秒】
+
+『ジョン・ウィック』の撮影を 終えた夜
+
+スタントチームに
+名前と
+「Thank you」を刻んだ
+腕時計を 贈った
+
+【間1.5秒】
+
+彼にとって
+お金は
+
+貯めて 眺めるものでも
+見せびらかすものでもない
+
+【間1秒】
+
+「ありがとう」を
+形にするための
+道具なんだ
+
+【間2秒】
+
+私たちは
+彼のような大金を
+持っていない
+
+でも
+考え方なら
+同じように 使える
+
+【間1秒】
+
+お金の 使い道には
+その人が 何を大切にしているかが
+そのまま 映る
+
+手伝ってくれた人への
+小さな お礼
+
+何かを 学ぶための
+一冊の 本
+
+大切な人と囲む
+一回の 食事
+
+【間1秒】
+
+これは
+全部 人にあげろ
+って話じゃない
+
+まず
+自分の暮らしを 守る
+
+そのうえで
+残った余白を
+どう使うか
+
+それを
+自分で 選ぶ
+
+【間1.5秒】
+
+お金は
+持っている量より
+
+選べる道の数を
+増やすために ある
+
+【間2秒】
+
+今日 あなたが
+お金で「ありがとう」に変えたいものは
+何だろう
+
+【間1秒】
+
+小さな芽を 選べる道に育てていこうか
+
+---
+
+## 台本（初稿・参考）
 
 世界的なスター
 キアヌ・リーヴスには
@@ -119,3 +266,49 @@
 - キアヌ・リーヴスは、自分のギャラを何度も手放している
 - お金を「ありがとう」に変える人｜キアヌ・リーヴス
 - 世界的スターが、成功報酬を裏方に渡した理由
+
+
+## 画像（お金編）
+### 使い回し（働き方編の絵）
+- 11（雨の中のシルエット・セピア弱）／10（芽）／D（二股の小道）／E（片方の道へ歩き出す人）
+
+### 作り直し（2枚）
+- 05R（スポットライトを浴びる特殊効果・衣装の職人）／06R（半円に並ぶ12台のバイク）※プロンプトはチャット参照（2026-10-07）
+
+### 新しく作る（M01〜M09）※今のChatGPTのチャットで1枚ずつ
+**M01** 自分の取り分を人に回す
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. on a long wooden table in warm lamplight, one hand gently slides its own small stack of gold coins away from itself toward many open hands of anonymous crew members waiting at the other end. No faces, no text.
+```
+**M02** 名優のための空いた椅子（ギャラを減らす）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an empty actor's chair waiting under a single spotlight on a dark film set, a young man with long dark hair seen from behind is stepping back into the shadow after placing his own thin pay envelope on the seat. No face shown, no text, no names.
+```
+**M03** 成功報酬（フィルムが金貨に変わる）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an old film reel unspooling through the air, the strip of film gradually turning into a flowing stream of gold coins that pours down toward a dim backstage workshop below. No text.
+```
+**M04** 名前と「Thank you」を刻んだ腕時計
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a classic diver's wristwatch resting in an open gift box on a dark wooden table, the case back turned up showing a few tiny engraved lines too small to read, warm single light. No logos, no readable text.
+```
+**M05** ☆（あれば）貯めて眺める・見せびらかすお金
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a pile of gold coins locked inside a glass display case in an empty room, a thin layer of dust on the glass, cold and lonely mood. No text.
+```
+**M06** 「ありがとう」を形にする道具
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. one pair of hands offering a small simply wrapped gift to another pair of hands, a single gold coin softly dissolving into the ribbon of the gift, warm gentle light. No faces, no text.
+```
+**M07** 普通の財布（私たちは大金を持っていない）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an ordinary worn leather wallet lying open on a small kitchen table at night with only a few coins inside, a cup of tea beside it, warm lamplight, calm and honest mood. No text.
+```
+**M08** 小さな使い道（3コマ）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. three stacked panels: top, hands handing a small plain thank-you envelope to someone; middle, hands opening a new book under a lamp; bottom, two people sharing a simple home-cooked meal at a small table, seen from behind. No faces, no text.
+```
+**M09** 暮らしと余白の天秤
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an old brass balance scale in soft morning light, on one side a small cozy house, on the other side a small wrapped gift and a tiny green sprout, the scale resting calmly in balance. The green sprout is the only vivid color. No text.
+```

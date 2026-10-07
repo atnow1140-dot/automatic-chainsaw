@@ -3,7 +3,7 @@
 使い方:
     python3 company/secretary/tools/placement_pdf.py company/secretary/ideas/specs/<動画>-placement.json
 
-spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
+spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"|"REUSE"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
 字幕の色ルールは company/secretary/ideas/majime-no-me-style-guide.md
 """
 import json
@@ -65,9 +65,10 @@ def build(spec_path):
     red_count = 0
     for i, (text, img, kind, how, cols) in enumerate(spec["rows"], 1):
         red_count += len(cols.get("r", []))
-        is_add = kind == "ADD"
+        is_add = kind in ("ADD", "REUSE")
         img_label = f'<font color="#3f6b2a">{escape(img)}.png</font>' if is_add else f"{escape(img)}.png"
-        kind_label = '<font color="#3f6b2a">追加生成</font>' if is_add else "ChatGPT"
+        kind_label = {"ADD": '<font color="#3f6b2a">追加生成</font>',
+                      "REUSE": '<font color="#3f6b2a">使い回し</font>'}.get(kind, "ChatGPT")
         data.append([Paragraph(str(i), C), Paragraph(escape(text), C), Paragraph(img_label, C),
                      Paragraph(kind_label, C), Paragraph(escape(how), C), Paragraph(subtitle_cell(cols), C)])
         if is_add:
