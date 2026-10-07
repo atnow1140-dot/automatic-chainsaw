@@ -36,6 +36,7 @@ SUB = style("sub", fontSize=7.8, leading=11, textColor=MUTED, spaceAfter=4)
 H2 = style("h2", fontSize=9.5, leading=13, textColor=ACC, spaceBefore=5, spaceAfter=2)
 C = style("c", fontSize=7.3, leading=9.6)
 CB = style("cb", fontSize=7.5, leading=10)
+SCALE = 1.0  # 1枚に収まらないときに自動で縮める
 
 
 def yellow(word):
@@ -51,7 +52,10 @@ def subtitle_cell(colors_):
     return "　".join(parts) if parts else '<font color="#9a9087">（白のみ）</font>'
 
 
-def build(spec_path):
+def build(spec_path, scale=1.0):
+    global C, CB
+    C = style("c", fontSize=7.3 * scale, leading=9.6 * scale)
+    CB = style("cb", fontSize=7.5 * scale, leading=10 * scale)
     spec = json.load(open(spec_path, encoding="utf-8"))
     out = os.path.join(ROOT, spec["output"])
 
@@ -60,7 +64,7 @@ def build(spec_path):
     ts = [("BACKGROUND", (0, 0), (-1, 0), HEAD_BG), ("GRID", (0, 0), (-1, -1), 0.3, GRID),
           ("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("ALIGN", (0, 0), (0, -1), "CENTER"),
           ("ALIGN", (2, 0), (3, -1), "CENTER"),
-          ("TOPPADDING", (0, 0), (-1, -1), 2.2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.2),
+          ("TOPPADDING", (0, 0), (-1, -1), 2.2 * scale), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.2 * scale),
           ("LEFTPADDING", (0, 0), (-1, -1), 3), ("RIGHTPADDING", (0, 0), (-1, -1), 3)]
     red_count = 0
     for i, (text, img, kind, how, cols) in enumerate(spec["rows"], 1):
@@ -90,10 +94,16 @@ def build(spec_path):
     story.append(Paragraph("メモ", H2))
     story += [Paragraph("・" + escape(n), C) for n in spec.get("notes", [])]
 
-    SimpleDocTemplate(out, pagesize=A4, leftMargin=14 * mm, rightMargin=14 * mm, topMargin=12 * mm,
-                      bottomMargin=10 * mm, title=spec["title"]).build(story)
-    print(out)
+    doc = SimpleDocTemplate(out, pagesize=A4, leftMargin=14 * mm, rightMargin=14 * mm, topMargin=12 * mm,
+                            bottomMargin=10 * mm, title=spec["title"])
+    doc.build(story)
+    return out, doc.page
 
 
 if __name__ == "__main__":
-    build(sys.argv[1])
+    # A4・1枚に収まるまで文字を少しずつ縮める
+    for sc in (1.0, 0.95, 0.9, 0.86, 0.82):
+        out, pages = build(sys.argv[1], sc)
+        if pages == 1:
+            break
+    print(out, f"({pages}ページ, 縮尺{sc})")
