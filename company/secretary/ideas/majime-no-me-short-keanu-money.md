@@ -385,3 +385,12 @@ Keanu Reeves Star / Photo by Michael Labowicz / CC BY-SA 2.0 / Wikimedia Commons
 ```
 - CC BY / CC BY-SA は商用利用OK。条件は「作者名・ライセンス・出典の表示」と「加工したことの明記」
 - CC BY-SA（P2）は、加工した画像そのものを配布する場合に同じライセンスを付ける必要がある（動画内で使う分には、上のクレジット表記で対応）
+
+## サムネ再検討（2026-10-07）※絵はすべてM10、白・黄・赤
+| 案 | 文字（赤＝核の一語、黄＝伝えたいフレーズ） | ファイル |
+|---|---|---|
+| A | お金を／「**ありがとう**」／に変える | thumb-A.png |
+| B | 自分の**取り分**を／人に回す人 | thumb-B.png |
+| C | お金は／**貯める**もの／じゃない | thumb-C.png |
+| D | ギャラを減らして／手に入れた／**もの** | thumb-D.png |
+- 比較画像: `company/assets/majime-no-me/keanu-money/thumb-compare.png`
