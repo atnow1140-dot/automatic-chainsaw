@@ -342,3 +342,20 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 ```
 Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. on a wooden windowsill at dawn, a single fresh green sprout grows out of a small stack of old coins, soft morning light behind it, quiet and hopeful. The green sprout is the only vivid color. No text.
 ```
+
+## タイトル・サムネ案（2026-10-07）
+### タイトル
+| 案 | タイトル | ねらい |
+|---|---|---|
+| **A（おすすめ）** | 世界的スターが、成功報酬を裏方に回した理由｜キアヌ・リーヴス | 「理由」で続きが気になる＋名前で検索に強い |
+| B | キアヌ・リーヴスは、自分のギャラを何度も手放している | 意外性。事実をそのまま言い切る |
+| C | お金を「ありがとう」に変える人｜キアヌ・リーヴス | メッセージ重視。保存・共有されやすい |
+
+### サムネ（スタイルガイド準拠：グレー帯＋黄色帯、核の一語だけ赤）
+| 案 | 1行目（グレー帯） | 2行目（黄色帯・赤の一語） | 小見出し | 絵 |
+|---|---|---|---|---|
+| **1（おすすめ）** | お金を | 「**ありがとう**」に変える | キアヌ・リーヴス | M01（コインを職人たちへ押し出す手） |
+| 2 | 成功報酬を | **裏方**に回した | キアヌ・リーヴス | M03（フィルムが金貨に変わる） |
+| 3 | 自分の | **取り分**を手放す | キアヌ・リーヴス | M01 |
+- タイトルとサムネは同じ言葉にしない（タイトル＝「理由」で引く／サムネ＝答えのヒントで引く）
+- シルエット（M10）はサムネに使わない（本人に寄せた絵でクリックを集めるのを避ける）
