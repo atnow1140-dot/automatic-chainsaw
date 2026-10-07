@@ -3,7 +3,7 @@
 使い方:
     python3 company/secretary/tools/placement_pdf.py company/secretary/ideas/specs/<動画>-placement.json
 
-spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"|"REUSE"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
+spec(JSON)の rows は [台本の区切り, 画像, 種類("GPT"|"ADD"|"REUSE"|"PHOTO"), 見せ方, {"y": [黄色の語], "r": [赤の語]}]
 字幕の色ルールは company/secretary/ideas/majime-no-me-style-guide.md
 """
 import json
@@ -69,13 +69,16 @@ def build(spec_path, scale=1.0):
     red_count = 0
     for i, (text, img, kind, how, cols) in enumerate(spec["rows"], 1):
         red_count += len(cols.get("r", []))
-        is_add = kind in ("ADD", "REUSE")
+        is_add = kind in ("ADD", "REUSE", "PHOTO")
         img_label = f'<font color="#3f6b2a">{escape(img)}.png</font>' if is_add else f"{escape(img)}.png"
         kind_label = {"ADD": '<font color="#3f6b2a">追加生成</font>',
-                      "REUSE": '<font color="#3f6b2a">使い回し</font>'}.get(kind, "ChatGPT")
+                      "REUSE": '<font color="#3f6b2a">使い回し</font>',
+                      "PHOTO": '<font color="#2a4f6b">実写（要クレジット）</font>'}.get(kind, "ChatGPT")
         data.append([Paragraph(str(i), C), Paragraph(escape(text), C), Paragraph(img_label, C),
                      Paragraph(kind_label, C), Paragraph(escape(how), C), Paragraph(subtitle_cell(cols), C)])
-        if is_add:
+        if kind == "PHOTO":
+            ts.append(("BACKGROUND", (0, i), (-1, i), colors.HexColor("#dde8f0")))
+        elif is_add:
             ts.append(("BACKGROUND", (0, i), (-1, i), ADD_BG))
     if red_count > 3:
         print(f"注意: 赤の字幕が{red_count}回あります（ルールは1本につき2〜3回まで）")
