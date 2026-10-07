@@ -285,9 +285,7 @@
 
 
 ## 画像（お金編）
-### 使い回し（働き方編の絵）
-- 11（雨の中のシルエット・セピア弱）／10（芽）／D（二股の小道）／E（片方の道へ歩き出す人）
-
+### 使い回し → なし（2026-10-07 お金編用に作り直し：M10〜M13）
 ### 作り直し（2枚）
 - 05R（スポットライトを浴びる特殊効果・衣装の職人）／06R（半円に並ぶ12台のバイク）※プロンプトはチャット参照（2026-10-07）
 
@@ -327,4 +325,20 @@ Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 verti
 **M09** 暮らしと余白の天秤
 ```
 Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. an old brass balance scale in soft morning light, on one side a small cozy house, on the other side a small wrapped gift and a tiny green sprout, the scale resting calmly in balance. The green sprout is the only vivid color. No text.
+```
+**M10** つかみ：コインを手放すシルエット（旧11の代わり）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a lone man in a black suit with long dark shoulder-length hair and a short beard standing under a single street lamp on a quiet night street, seen in side profile almost entirely in shadow so the face has no detailed features, his open palm turned down letting a few gold coins fall softly toward the ground, calm mood. No text, no logos.
+```
+**M11** 余白をどう使うか選ぶ分かれ道（旧Dの代わり）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. a quiet forest path that splits in two, one path leads to a small warm house with a lit window, the other leads to a small wrapped gift resting on a tree stump in soft light, no people. No text.
+```
+**M12** 選べる道の数が増える（旧Eの代わり）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. at dawn on a gentle hilltop, a person seen from behind stands calmly while many small paths spread out from their feet in different directions across the soft landscape, hopeful and open mood. No face shown, no text.
+```
+**M13** ラスト：コインから生える芽（旧10の代わり・緑はここだけ）
+```
+Flat 2D hand-drawn illustration, NOT realistic, same style as before, 9:16 vertical. on a wooden windowsill at dawn, a single fresh green sprout grows out of a small stack of old coins, soft morning light behind it, quiet and hopeful. The green sprout is the only vivid color. No text.
 ```
