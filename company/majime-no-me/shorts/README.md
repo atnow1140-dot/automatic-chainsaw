@@ -8,16 +8,16 @@
 
 | 話 | タイトル（本命） | フォルダ | 台本 | 画像 |
 |---|---|---|---|---|
-| 1 | 貯金いくらあれば安心？答えは人で違う | `s01_seikatsu-bouei/` | ✅ | ⏳ |
-| 2 | 家計簿が続かないのは意志のせいじゃない | `s02_kakeibo/` | ✅ | ⏳ |
-| 3 | 節約は我慢より、1回の見直しが効く | `s03_koteihi/` | ✅ | ⏳ |
-| 4 | 投資で「減る」には2種類あるって知ってた？ | `s04_kakaku-hendou/` | ✅ | ⏳ |
-| 5 | 「卵をひとつのカゴに盛るな」の本当の意味 | `s05_bunsan/` | ✅ | ⏳ |
-| 6 | 複利は魔法じゃない。時間の味方なだけ | `s06_fukuri/` | ✅ | ⏳ |
-| 7 | NISAのお得、ひと言で言えますか？ | `s07_nisa/` | ✅ | ⏳ |
-| 8 | ボーナスの使い道、順番で決まるんだ | `s08_bonus/` | ✅ | ⏳ |
-| 9 | 真面目な人ほど狙われる「うまい話」の見分け方 | `s09_sagi/` | ✅ | ⏳ |
-| 10 | 年金「もらえない」と「減るかも」は別の話 | `s10_nenkin/` | ✅ | ⏳ |
+| 1 | 貯金いくらあれば安心？答えは人で違う | `s01_seikatsu-bouei/` | ✅ | [✅](https://www.canva.com/M/MAHXdRg3MYE) |
+| 2 | 家計簿が続かないのは意志のせいじゃない | `s02_kakeibo/` | ✅ | [✅](https://www.canva.com/M/MAHXdQZZGyk) |
+| 3 | 節約は我慢より、1回の見直しが効く | `s03_koteihi/` | ✅ | [✅](https://www.canva.com/M/MAHXdUOA2XI) |
+| 4 | 投資で「減る」には2種類あるって知ってた？ | `s04_kakaku-hendou/` | ✅ | [✅](https://www.canva.com/M/MAHXddOTKag) |
+| 5 | 「卵をひとつのカゴに盛るな」の本当の意味 | `s05_bunsan/` | ✅ | [✅](https://www.canva.com/M/MAHXdVK7UOM) |
+| 6 | 複利は魔法じゃない。時間の味方なだけ | `s06_fukuri/` | ✅ | [✅](https://www.canva.com/M/MAHXdbhAvgM) |
+| 7 | NISAのお得、ひと言で言えますか？ | `s07_nisa/` | ✅ | [✅](https://www.canva.com/M/MAHXdUYiqrA) |
+| 8 | ボーナスの使い道、順番で決まるんだ | `s08_bonus/` | ✅ | [✅](https://www.canva.com/M/MAHXdXM4FHQ) |
+| 9 | 真面目な人ほど狙われる「うまい話」の見分け方 | `s09_sagi/` | ✅ | [✅](https://www.canva.com/M/MAHXdcSiF0k) |
+| 10 | 年金「もらえない」と「減るかも」は別の話 | `s10_nenkin/` | ✅ | [✅](https://www.canva.com/M/MAHXdQNaJfs) |
 
 ## 投稿スケジュール案（すべて19:45に予約投稿）
 - 週2本（例：火・金）で5週間。本編の公開日とは重ならないようにする
