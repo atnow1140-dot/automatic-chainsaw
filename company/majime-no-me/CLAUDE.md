@@ -29,6 +29,7 @@ company/majime-no-me/
 ├── assets/                  … 全動画共通の素材（画像の画風プロンプト集など）
 ├── ideas/                   … 本編のネタ帳
 ├── shorts/                  … 単発ショート（第1〜10話。sNN_テーマ/ に script.csv と plan.md）
+├── shorts-jinbutsu/         … 人物シリーズ（実在の人物のエピソードから入る約120秒のショート）
 └── episodes/
     └── epNN_テーマ/          … 1エピソード分をまとめて置く
         ├── YYYY-MM-DD_テーマ_vN.md          … 本編台本（版を残す）
@@ -47,3 +48,4 @@ company/majime-no-me/
 
 ## ショート一覧
 - 単発ショート第1〜10話: `shorts/README.md`（台本・画像・タイトル・概要欄 10本とも完成。あとはVrewで動画化して予約投稿）
+- 人物シリーズ第1・2話（啄木・本多静六）: `shorts-jinbutsu/README.md`（台本のみ）
