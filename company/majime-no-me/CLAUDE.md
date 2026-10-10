@@ -48,4 +48,4 @@ company/majime-no-me/
 
 ## ショート一覧
 - 単発ショート第1〜10話: `shorts/README.md`（台本・画像・タイトル・概要欄 10本とも完成。あとはVrewで動画化して予約投稿）
-- 人物シリーズ第1・2話（啄木・本多静六）: `shorts-jinbutsu/README.md`（台本のみ）
+- 人物シリーズ（キアヌ回の形・第1〜10話の並び）: `shorts-jinbutsu/README.md`（第3・4・5・9話の台本あり）
