@@ -6,8 +6,12 @@
 
 | 話 | 人物 | テーマ | フォルダ | 状態 |
 |---|---|---|---|---|
-| 1 | 石川啄木 | 人間関係×お金「貸すなら、あげてもいい額だけ」 | `p01_takuboku/` | 台本 ✅ |
-| 2 | 本多静六 | 働き方×お金「貯金は上がってからじゃなく先に」 | `p02_honda-seiroku/` | 台本 ✅ |
+| ― | 本多静六 | お金「給料の4分の1を、先によけた人」 | `p02_honda-seiroku/script-keanu-style.md` | キアヌ回の形で台本 ✅ |
+| ― | オセオラ・マッカーティ | お金「洗濯の仕事で、奨学金をつくった人」 | `oseola-mccarty/script-keanu-style.md` | キアヌ回の形で台本 ✅ |
+| 保留 | 石川啄木 | 人間関係×お金 | `p01_takuboku/` | テロップ型（キアヌ回の形ではない） |
+| 保留 | 本多静六 | テロップ型の旧版 | `p02_honda-seiroku/script.csv` | キアヌ回の形に作り直したので保留 |
+
+> 話数はキアヌ回（第1話・働き方編／お金編）との並びが決まってから振る。キアヌ回は別ブランチ `claude/inspiring-maxwell-2bfsfl` の `company/secretary/ideas/` にある
 
 ## 事実の確認（2026-10-10）
 - 啄木：借金相手60人以上・金田一から特に多く借りた・金田一の下宿で食費を払ってもらった（日刊ゲンダイ書評 https://www.nikkan-gendai.com/articles/view/book/285277 ）、下宿代が滞り4か月で転居（文京区 https://www.city.bunkyo.lg.jp/bunka/kanko/spot/ato/gaiheikan.html ）
