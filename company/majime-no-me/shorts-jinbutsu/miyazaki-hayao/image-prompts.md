@@ -132,8 +132,14 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 - 文字（デザインルールどおり）: グレー帯「引退した監督が」／黄色の帯「**10年後**、アカデミー賞」（「10年後」だけ赤）／小さいグレー帯「宮崎駿」
 - 文字は中央寄せ。後ろ姿とトロフィーは隠さない
 
-## サムネ（2026-10-11 決定案）
-- 文字: 小「宮崎駿」／大「**辞めた**自分も」（辞めた＝赤）／大「**戻った**自分も」（戻った＝黄色）／中「どっちも、あなた」
+## サムネ（2026-10-11 決定）
+- 文字は3つだけ: 小「宮崎駿」／大「**辞めた**自分」（辞めた＝赤）／大「**戻った**自分」（戻った＝黄色）
 - デザイン: キアヌ お金編と同じ「帯なし・白文字＋黒フチ＋影」。赤は白フチ、黄色は黒フチ
-- 文字だけの透明PNG: `thumbnail-text-overlay.png`（1080×1920）→ ChatGPTで作ったNo.1の画像の上に重ねる
-- 見本: `thumbnail-mock.png`（背景はCanva試作の小さいプレビューを引き伸ばしたもの。並びの確認用）
+- 文字だけの透明PNG: `thumbnail-text-overlay.png`（1080×1920）→ ChatGPTのサムネ用イラストに重ねる
+- 見本: `thumbnail-mock.png`（背景はCanva試作の小さいプレビューを引き伸ばしたもの）
+- イラストはChatGPTで作る。上35%を空けて、文字を置く場所にする
+
+**サムネ用プロンプト（No.1と同じチャットで続けて送る）**
+```
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical, YouTube Shorts thumbnail composition. The upper 35% of the image is calm, almost empty white paper with very little detail, leaving clear space for large title text that will be added later. In the lower 65%: a present-day modern animation studio, an elderly man with white hair, black-rimmed glasses and a white beard, wearing a simple work apron over a white shirt, seen from behind over his shoulder as he draws with a pencil at a clean light-colored desk, an LED desk lamp and a sheet of drawing paper in front of him, and on the desk a small golden award statuette of a simple standing figure clearly visible with a warm glow, the gold being the only strong color accent. Bold thick outlines on the man and the statuette so the picture reads clearly even at small size, high contrast. No face shown, no text, no letters, not an Oscar statuette, not old-fashioned.
+```
