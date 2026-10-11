@@ -19,7 +19,7 @@
 |---|---|---|---|---|---|---|
 | 1 | 1 | キアヌ・リーヴス（働き方）「見えない刃」 | ✅ 台本決定 10/05・画像完成。投稿したかは記録なし | 未決（おすすめ案A「キアヌ・リーヴスの最初の仕事は、スケート靴の刃を研ぐことだった」） | ✅ `company/assets/majime-no-me/keanu/thumbnail-final.png` | `company/secretary/ideas/majime-no-me-short-keanu.md`（inspiring-maxwell） |
 | 2 | 2 | キアヌ・リーヴス（お金）「お金の使い道」 | ✅ ほぼ完成（10/09「動画はそこそこできた」） | ✅ 世界的スターが、成功報酬を裏方に回した理由｜キアヌ・リーヴス | 下書き `company/assets/majime-no-me/keanu-money/thumbnail-draft.png`（A〜D案も同フォルダ） | `company/secretary/ideas/majime-no-me-short-keanu-money.md`（inspiring-maxwell） |
-| 3 | 4 | 本田宗一郎と藤澤武夫（人間関係）「ひとりで抱えなかった二人」 | 台本あり 10/10・**次に作る回** | 未決 | なし | `.../shorts-jinbutsu/honda-fujisawa/script-keanu-style.md`（focused-rubin） |
+| 3 | 4 | 本田宗一郎と藤澤武夫（人間関係）「ひとりで抱えなかった二人」 | 台本v2・画像プロンプト14枚・字幕色・サムネ文字PNG 10/11（**次に作る回**） | ✅ 苦手は、誰かの得意で埋めていい｜本田宗一郎と藤澤武夫 #short | 文字PNG `.../honda-fujisawa/thumbnail-text-overlay.png`（絵はChatGPTで作成待ち） | `company/majime-no-me/shorts-jinbutsu/honda-fujisawa/`（このブランチ。v1は focused-rubin） |
 | 4 | 4 | 大谷翔平（働き方）「夢の横に書いた、ゴミ拾い」 | 台本あり 10/10 | 未決 | なし | `company/majime-no-me/shorts-jinbutsu/ohtani-shohei/script-keanu-style.md`（focused-rubin） |
 | 5 | 4 | オセオラ・マッカーティ（お金）「洗濯の仕事で、奨学金をつくった人」 | 台本あり 10/10・フック未反映 | 未決 | なし | `.../shorts-jinbutsu/oseola-mccarty/script-keanu-style.md`（focused-rubin） |
 | 6 | — | ヘレン・ケラーとアン・サリバン（人間関係） | 案 | — | — | — |
