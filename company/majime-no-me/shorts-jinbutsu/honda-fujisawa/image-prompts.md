@@ -99,7 +99,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.8｜25年の二人三脚**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. two pairs of feet walking side by side along a long road that stretches into the distance, one pair in worn work boots with white overall cuffs, the other in polished leather dress shoes with dark suit trousers, fallen leaves and spring petals scattered along the road suggesting many seasons passing. No faces, no text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. NEW SCENE: completely different from the previous image, do NOT draw any tools, wrench, pen, abacus or table. Outdoors, low camera angle at ground level: two pairs of men's feet walking side by side away from the viewer along a long straight country road in Japan that stretches to the horizon, the left pair wears worn work boots with the cuffs of white work overalls, the right pair wears polished black leather dress shoes with dark suit trousers, their steps are in sync, along the road the trees change from spring blossoms near the viewer to autumn leaves in the distance to show many years passing. Only legs and feet are visible, no faces, no text.
 ```
 
 **No.9｜1973年 そろって引退**
