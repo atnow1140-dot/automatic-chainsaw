@@ -46,8 +46,8 @@ photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor ble
 | 7 | 彼は 引退を 撤回する | エプロンのひもを結び直す手、鉛筆を削る | 復帰 |
 | 8 | 2023年 夏 | 夏の夕方、満席の映画館の客席の後ろ姿 | 10年ぶりの新作 |
 | 9 | その作品は 翌年 | 鉛筆立ての横に置かれた金色のトロフィー | 受賞 |
-| 10 | 一度 やめると 言ったら | 夜のオフィスで退職届を前に迷う会社員 | 視聴者に寄り添う |
-| 11 | やめることも 戻ることも | 夕暮れ、行き先の違う2本の道の分かれ目 | 選んでいい |
+| 10 | 一度 やめると 言ったら | 夜のオフィスで封筒を前に迷う会社員（No.11と同じ人物） | 視聴者に寄り添う |
+| 11 | やめることも 戻ることも | 同じ会社員が、夕暮れの都会の分かれ道に立つ後ろ姿 | 選んでいい |
 | 12 | 休むのは 逃げじゃない | 夕暮れのベンチでノートを開いて休む人 | 選び直す時間 |
 | 13 | 今日 あなたが | 朝の机、鉛筆の削りくずの鉢から出た小さな芽 | ラスト・余韻 |
 
@@ -107,12 +107,12 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.10｜一度やめると言ったら、もう戻れない（視聴者）**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tired office worker in his thirties sitting alone at a desk in a dark office at night, looking down at a sealed white envelope on the desk, city lights through the window behind him, seen from the side in shadow, hesitant mood. No readable text on the envelope.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack (keep this exact same character in the next image), sitting alone at a desk in a modern office at night, looking down at a sealed white envelope on the desk, city lights through the large window behind him, seen from the side in shadow so his face has no detailed features, hesitant mood. No readable text on the envelope.
 ```
 
 **No.11｜やめることも 戻ることも 自分で選んでいい**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a lone person seen from behind standing at a fork in a quiet country road at dusk, one path leading back toward a small house with a warm lit window, the other path leading toward distant hills, both paths look gentle and inviting. No text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous image (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), seen from behind standing at a fork in a modern city sidewalk at dusk, the left path leads back toward tall office buildings with lit windows, the right path leads toward a quieter tree-lined street with warm shop lights and a train station, both paths look calm and possible, no path is dark or scary. No text, no readable signs, no logos.
 ```
 
 **No.12｜休むのは逃げじゃない**
