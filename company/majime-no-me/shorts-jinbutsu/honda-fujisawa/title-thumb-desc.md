@@ -39,3 +39,8 @@
 
 #本田宗一郎 #藤澤武夫 #ホンダ #仕事の考え方 #人間関係 #真面目の芽 #ショート動画
 ```
+
+## サムネ用イラストのプロンプト（ChatGPT・No.1と同じチャットで続けて送る）
+```
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. THUMBNAIL VERSION of the first image: the same small Japanese motorcycle workshop around 1950 and the same man in white work overalls seen from behind, bent over a small engine on a workbench, in the background through an open doorway a different man's hands in a dark suit sleeve writing in an account ledger next to an abacus, warm amber light on the ledger. Place all of this in the lower 65% of the image. Keep the top 35% of the image as plain, light, empty white paper with no objects, so text can be placed there later. No faces shown, no text, no logos, no brand names.
+```
