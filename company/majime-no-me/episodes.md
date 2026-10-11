@@ -13,14 +13,14 @@
 
 ## 1. 人物シリーズ（ショート・約120秒・キアヌ回の形）
 
-話数は `shorts-jinbutsu/README.md` の「第1〜10話の並び」（企画上の順番）。**作った順とはズレている**ので「制作順」も並べた。
+話数は `shorts-jinbutsu/README.md` の「第1〜10話の並び」を元に、**第3話を本田宗一郎と藤澤武夫に決定**（2026-10-11 フウガ決定。大谷翔平と入れ替え）。作った順とはズレているので「制作順」も並べた。
 
 | 話 | 制作順 | 人物（テーマ） | 状態 | タイトル | サムネ | 台本の場所（ブランチ） |
 |---|---|---|---|---|---|---|
 | 1 | 1 | キアヌ・リーヴス（働き方）「見えない刃」 | ✅ 台本決定 10/05・画像完成。投稿したかは記録なし | 未決（おすすめ案A「キアヌ・リーヴスの最初の仕事は、スケート靴の刃を研ぐことだった」） | ✅ `company/assets/majime-no-me/keanu/thumbnail-final.png` | `company/secretary/ideas/majime-no-me-short-keanu.md`（inspiring-maxwell） |
 | 2 | 2 | キアヌ・リーヴス（お金）「お金の使い道」 | ✅ ほぼ完成（10/09「動画はそこそこできた」） | ✅ 世界的スターが、成功報酬を裏方に回した理由｜キアヌ・リーヴス | 下書き `company/assets/majime-no-me/keanu-money/thumbnail-draft.png`（A〜D案も同フォルダ） | `company/secretary/ideas/majime-no-me-short-keanu-money.md`（inspiring-maxwell） |
-| 3 | 4 | 大谷翔平（働き方）「夢の横に書いた、ゴミ拾い」 | 台本あり 10/10 | 未決 | なし | `company/majime-no-me/shorts-jinbutsu/ohtani-shohei/script-keanu-style.md`（focused-rubin） |
-| 4 | 4 | 本田宗一郎と藤澤武夫（人間関係）「ひとりで抱えなかった二人」 | 台本あり 10/10 | 未決 | なし | `.../shorts-jinbutsu/honda-fujisawa/script-keanu-style.md`（focused-rubin） |
+| 3 | 4 | 本田宗一郎と藤澤武夫（人間関係）「ひとりで抱えなかった二人」 | 台本あり 10/10・**次に作る回** | 未決 | なし | `.../shorts-jinbutsu/honda-fujisawa/script-keanu-style.md`（focused-rubin） |
+| 4 | 4 | 大谷翔平（働き方）「夢の横に書いた、ゴミ拾い」 | 台本あり 10/10 | 未決 | なし | `company/majime-no-me/shorts-jinbutsu/ohtani-shohei/script-keanu-style.md`（focused-rubin） |
 | 5 | 4 | オセオラ・マッカーティ（お金）「洗濯の仕事で、奨学金をつくった人」 | 台本あり 10/10・フック未反映 | 未決 | なし | `.../shorts-jinbutsu/oseola-mccarty/script-keanu-style.md`（focused-rubin） |
 | 6 | — | ヘレン・ケラーとアン・サリバン（人間関係） | 案 | — | — | — |
 | 7 | 3 | 宮崎駿（働き方）「やめてもいい、戻ってきてもいい」 | 台本・画像プロンプト13枚・字幕色PDF・サムネ完成 10/11 | 未決 | ✅ `.../shorts-jinbutsu/miyazaki-hayao/thumbnail-final.png`（文字：宮崎駿／辞めた自分／戻った自分） | `.../shorts-jinbutsu/miyazaki-hayao/script-keanu-style.md`（focused-rubin） |
@@ -29,7 +29,8 @@
 | 10 | — | 葛飾北斎（働き方） | 案 | — | — | — |
 
 - 制作順の「4」= 10/10 にまとめて台本だけ作った回。画像・サムネまで進んでいるのは 1・2・7 の3本だけ
-- **「3話目」問題**: 企画の並びだと第3話は大谷翔平。でも実際に3本目として作り込んだのは宮崎駿（企画上は第7話）。どっちで数えるかは要確認
+- 第3話は本田宗一郎と藤澤武夫に決定（2026-10-11）。宮崎駿は第7話のまま（ほぼ完成）
+- ⚠️ `shorts-jinbutsu/README.md`（focused-rubin）はまだ旧い並び（第3話＝大谷翔平）のまま
 - 保留: 石川啄木（`p01_takuboku/`・テロップ型）、本多静六テロップ型の旧版（`p02_honda-seiroku/script.csv`）
 - キアヌ回の最初の下書き（まじめくん動画のアレンジ・10/04）: `company/secretary/ideas/majime-no-me-daihon-keanu.md`（inspiring-pasteur）→ 10/05の決定版に置き換わった
 
