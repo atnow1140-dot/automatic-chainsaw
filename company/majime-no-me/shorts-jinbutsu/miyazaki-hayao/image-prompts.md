@@ -23,6 +23,9 @@ bold expressive pencil sketch illustration on white textured drawing paper, very
 【入れないもの】
 photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor bleed, smudged charcoal, airbrush, glossy digital painting, flat vector art, motion blur, depth of field, bokeh, text, letters, logos, brand names, bright saturated colors, anime, cute chibi, Studio Ghibli style, any existing animated characters, Oscar statuette
 
+【舞台】
+舞台は現代（2010〜2020年代）です。古い屋根裏・古びた木の机・アンティークの道具・薄暗いアトリエは描かないでください。明るく整った今のアニメスタジオの作業スペース（白や明るい木の机、LEDのデスクライト、大きな窓、すっきりした棚）にしてください。
+
 【人物】
 実在の人物の顔は描かないでください。主人公は「白髪で黒縁メガネ、白い口ひげとあごひげの年配の男性、作業用のエプロン姿」で、後ろ姿・横顔の影・手元だけで表現してください。
 
@@ -34,7 +37,7 @@ photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor ble
 ## 一覧（どの文から切り替えるか）
 | No | 切り替える文（台本） | 場面 | 役割 |
 |---|---|---|---|
-| 1 | 引退を 宣言した 監督が | 後ろ姿＋金色のトロフィー | **冒頭フック・サムネ候補** |
+| 1 | 引退を 宣言した 監督が | 現代のスタジオで机に向かう後ろ姿＋金色のトロフィー | **冒頭フック・サムネ候補** |
 | 2 | 2013年 秋 | 会見場の空いた机とマイク | 引退会見 |
 | 3 | 長編アニメーションから 引退します | 鉛筆を置く手、消えるデスクライト | 引退 |
 | 4 | じつは それまでも | 短くなった鉛筆がぎっしりの鉛筆立て | 何度も辞めて、また作った |
@@ -55,10 +58,11 @@ photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor ble
 ## 1枚ずつ貼るプロンプト
 
 **No.1｜冒頭フック（サムネ候補）**
+- ※2026-10-11 舞台を現代のスタジオに変更（試作v2は昔風の部屋なので、作り直しが必要）
 - 試作 v2（太細ミックス・薄塗り）: https://www.canva.com/M/MAHXqCCaVGk （フウガ確認待ち）
 - 試作 v1（細線・しっかり塗り）: https://www.canva.com/M/MAHXqEt7NvU
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an elderly man with white hair, black-rimmed glasses and a white beard, wearing a work apron, seen from behind as he sits at a cluttered wooden drawing desk under a warm lamp, sheets of paper and many pencils around him, on the corner of the desk a small golden award statuette of a simple standing figure catches the light. No face shown, no text, not an Oscar statuette.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. present-day modern animation studio, an elderly man with white hair, black-rimmed glasses and a white beard, wearing a simple work apron over a white shirt, seen from behind as he sits at a clean light-colored desk with an adjustable LED desk lamp, a few neat stacks of drawing paper and a cup of pencils, a large window with a contemporary city view behind, on the corner of the desk a small golden award statuette of a simple standing figure catches the light. No face shown, no text, not an Oscar statuette, not old-fashioned.
 ```
 
 **No.2｜2013年 秋（引退会見）**
@@ -68,27 +72,27 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.3｜引退します**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of an old man's wrinkled hand gently placing a pencil down on a blank sheet of drawing paper, the desk lamp beside it fading off, quiet and final mood. No face, no text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of an elderly man's hand gently placing a pencil down on a blank sheet of drawing paper on a clean modern white desk, a slim LED desk lamp beside it switching off, quiet and final mood. No face, no text.
 ```
 
 **No.4｜何度も辞めると言っては、また作ってきた**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a ceramic pencil holder packed with dozens of pencils worn down to tiny stubs, piles of pencil shavings and stacks of used drawing paper around it, warm lamplight, a sense of many years of work. No text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. on a clean modern desk, a simple matte pencil cup packed with dozens of pencils worn down to tiny stubs, an electric pencil sharpener and neatly stacked used drawing paper beside it, soft daylight from a large window, a sense of many years of work. No text.
 ```
 
 **No.5｜今回は本気です**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an elderly man's hands untying and neatly folding a worn work apron, placing it over the back of an empty wooden chair in front of a drawing desk, soft evening light. No face, no text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an elderly man's hands untying and neatly folding a simple work apron, placing it over the back of a modern office chair in front of a clean light-colored desk, soft evening light through a large window. No face, no text.
 ```
 
 **No.6｜それから 4年**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an empty quiet artist's studio with a drawing desk covered by a cloth, a large window behind it showing the seasons changing in four vertical bands from autumn leaves to snow to spring blossoms to summer green, dust floating in a beam of light. No people, no text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an empty bright modern studio room with a clean desk and chair, the desk neatly cleared, a large floor-to-ceiling window behind it showing the seasons changing in four vertical bands from autumn leaves to snow to spring blossoms to summer green, calm stillness. No people, no text.
 ```
 
 **No.7｜引退を撤回する**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an elderly man with white hair and black-rimmed glasses seen from behind, tying the strings of his work apron again, a freshly sharpened pencil and a clean stack of paper waiting on the desk, morning light coming in, quiet determination. No face shown, no text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. an elderly man with white hair and black-rimmed glasses seen from behind in a bright present-day studio, tying the strings of his simple work apron again, a freshly sharpened pencil and a clean stack of paper waiting on a modern light-colored desk, morning light through a large window, quiet determination. No face shown, no text.
 ```
 
 **No.8｜2023年 夏（10年ぶりの新作）**
@@ -98,7 +102,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.9｜アカデミー賞を受けた**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a small golden award statuette of a simple standing figure placed on a wooden shelf right next to a pencil holder full of worn-down pencil stubs, warm lamplight, humble and quiet mood. Not an Oscar statuette, no text, no logos.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a small golden award statuette of a simple standing figure placed on a clean modern white shelf right next to a simple pencil cup full of worn-down pencil stubs, soft daylight, humble and quiet mood. Not an Oscar statuette, no text, no logos.
 ```
 
 **No.10｜一度やめると言ったら、もう戻れない（視聴者）**
@@ -118,7 +122,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.13｜ラスト（小さな芽を 選べる道に）**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a wooden drawing desk at dawn, a small pot filled with pencil shavings, and from the shavings a single fresh green sprout is growing, the green sprout is the only vivid color in the image, a short pencil lying beside it, quiet hopeful mood. No text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a clean modern light-colored desk at dawn by a large window, a small simple pot filled with pencil shavings, and from the shavings a single fresh green sprout is growing, the green sprout is the only vivid color in the image, a short pencil lying beside it, quiet hopeful mood. No text.
 ```
 
 ---
