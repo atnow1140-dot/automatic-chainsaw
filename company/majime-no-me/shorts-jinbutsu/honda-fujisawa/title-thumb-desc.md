@@ -18,6 +18,7 @@
 - 文字は3つだけ: 小「本田宗一郎と藤澤武夫」／大「**ひとりで**」（白）／大「**抱えない**」（「抱えない」＝赤・白フチ）
 - 文字だけの透明PNG: `thumbnail-text-overlay.png`（1080×1920・Noto Sans JP Black）→ ChatGPTで作ったNo.1の絵に重ねる
 - 見本: `thumbnail-mock.png`（背景はCanva試作の小さいプレビューを引き伸ばしたもの。本番はChatGPTの絵で）
+- ✅ 完成（2026-10-11）: `thumbnail-final.png`（ChatGPTのイラスト `thumbnail-illustration-chatgpt.png` ＋ 文字）
 - 予備案: 大「苦手は」／大「**任せて**いい」（任せて＝黄）
 
 ## 説明文
