@@ -2,11 +2,13 @@
 
 ## 基本情報
 - 名前: フウガ
-- 職業/活動: Instagramのチャンネル作成、動画制作
+- 職業/活動: YouTubeチャンネルの運営、動画制作（2026-09-25にInstagramから移行）
+- チャンネル: 「真面目の芽（MAJIME no ME）」大人のための静かな学び／ナビゲーター: シン
+  - YouTube本編（10〜15分）をメインに、YouTubeショートとInstagramから本編へ誘導
 - 言語: 日本語で対応すること
 
 ## 主な業務
-- Instagramチャンネルの作成・運用
+- YouTubeチャンネルの作成・運用（長尺動画：投資教育など）
 - 動画の作成
 - 動画構成・ネタ出し
 
@@ -44,6 +46,15 @@
   - company/secretary/todos/ - 日付ごとのtodo
   - company/secretary/ideas/ - アイデア・メモ
   - company/secretary/logs/ - 日報・活動ログ
+- majime-no-me（真面目の芽プロジェクト／制作部）: YouTube本編・ショート・Instagramの制作
+  - company/majime-no-me/CLAUDE.md - プロジェクトのルール・制作の流れ・エピソード一覧（まずここを読む）
+  - company/majime-no-me/episodes/epNN_テーマ/ - 1エピソード分（本編台本・Vrew用・画像・音・ショート・Instagram）
+  - company/majime-no-me/channel/ - チャンネル説明文・開設チェックリスト・ブロック単語
+  - company/majime-no-me/assets/ - 全動画共通の素材（AI画像の画風プロンプト集）
+  - company/majime-no-me/ideas/ - 本編のネタ帳
+
+### スキル
+- `.claude/skills/shorts-studio/` - ショート動画の企画〜投稿の定型プロンプト集（トレンド調査・台本CSV・フック・タイトル・サムネ・横展開・ハッシュタグ・X調査・型の分析）。ショート動画の話が出たらこれを使う
 
 ### 運用方針
 - ユーザーが思いついたこと・やることは秘書に投げる
