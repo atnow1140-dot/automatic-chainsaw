@@ -55,6 +55,7 @@ photorealistic, photograph, 3d render, soft blur, watercolor bleed, smudged char
 ## 1枚ずつ貼るプロンプト
 
 **No.1｜冒頭フック（サムネ候補）**
+- 試作（CanvaのAI・2026-10-11）: https://www.canva.com/M/MAHXqEt7NvU （フウガ確認待ち）
 ```
 Sharp pencil and colored pencil sketch, fine crisp lines and dense colored pencil shading, NOT realistic, same style as before, 9:16 vertical. an elderly man with white hair, black-rimmed glasses and a white beard, wearing a work apron, seen from behind as he sits at a cluttered wooden drawing desk under a warm lamp, sheets of paper and many pencils around him, on the corner of the desk a small golden award statuette of a simple standing figure catches the light. No face shown, no text, not an Oscar statuette.
 ```
