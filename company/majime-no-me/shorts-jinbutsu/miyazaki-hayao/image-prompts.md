@@ -138,6 +138,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 - 文字だけの透明PNG: `thumbnail-text-overlay.png`（1080×1920）→ ChatGPTのサムネ用イラストに重ねる
 - 見本: `thumbnail-mock.png`（背景はCanva試作の小さいプレビューを引き伸ばしたもの）
 - イラストはChatGPTで作る。上35%を空けて、文字を置く場所にする
+- ✅ 完成（2026-10-11）: `thumbnail-final.png`（ChatGPTのイラスト `thumbnail-illustration-chatgpt.webp` ＋ 文字）
 
 **サムネ用プロンプト（No.1と同じチャットで続けて送る）**
 ```
