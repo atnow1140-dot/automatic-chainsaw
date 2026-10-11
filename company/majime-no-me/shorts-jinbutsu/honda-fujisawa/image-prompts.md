@@ -62,6 +62,7 @@ No.1〜10は昭和の日本（1949〜1973年）です。町工場・木の机・
 ## 1枚ずつ貼るプロンプト
 
 **No.1｜冒頭フック（サムネ候補）**
+- 試作（Canva・2026-10-11）: https://www.canva.com/M/MAHXr4dBJyk （小さいプレビュー: `no01-trial-canva-preview.jpg`。フウガ確認待ち）
 ```
 Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a small Japanese motorcycle workshop around 1950, in the foreground a man in white work overalls seen from behind, bent over a small engine on a workbench with grease on his hands and a wrench, in the background through an open doorway a tidy wooden office desk where a different man's hands in a dark suit sleeve write in an account ledger next to an abacus, warm amber light falls on the ledger. No faces shown, no text, no logos, no brand names.
 ```
