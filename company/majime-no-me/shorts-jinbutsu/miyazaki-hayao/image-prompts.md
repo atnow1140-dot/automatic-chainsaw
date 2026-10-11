@@ -21,7 +21,7 @@
 bold expressive pencil sketch illustration on white textured drawing paper, very sharp and crisp, dynamic line weight: strong thick dark graphite contour lines on the main subject mixed with very thin delicate pencil lines for details, confident decisive strokes, fine hatching only in the deepest shadows, light and sparse colored pencil wash with lots of white paper showing through, pale muted sepia, olive and dusty blue-gray tints with a small warm amber accent, high contrast, graphic and striking, NOT realistic, NOT photographic, no text, 9:16 vertical
 
 【入れないもの】
-photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor bleed, smudged charcoal, airbrush, glossy digital painting, flat vector art, thick cartoon outlines, motion blur, depth of field, bokeh, text, letters, logos, brand names, bright saturated colors, anime, cute chibi, Studio Ghibli style, any existing animated characters, Oscar statuette
+photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor bleed, smudged charcoal, airbrush, glossy digital painting, flat vector art, motion blur, depth of field, bokeh, text, letters, logos, brand names, bright saturated colors, anime, cute chibi, Studio Ghibli style, any existing animated characters, Oscar statuette
 
 【人物】
 実在の人物の顔は描かないでください。主人公は「白髪で黒縁メガネ、白い口ひげとあごひげの年配の男性、作業用のエプロン姿」で、後ろ姿・横顔の影・手元だけで表現してください。
