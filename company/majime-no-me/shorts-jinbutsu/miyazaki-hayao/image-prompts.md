@@ -48,7 +48,7 @@ photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor ble
 | 9 | その作品は 翌年 | 鉛筆立ての横に置かれた金色のトロフィー | 受賞 |
 | 10 | 一度 やめると 言ったら | 夜のオフィスで封筒を前に迷う会社員（No.11と同じ人物） | 視聴者に寄り添う |
 | 11 | やめることも 戻ることも | 同じ会社員が、夕暮れの都会の分かれ道に立つ後ろ姿 | 選んでいい |
-| 12 | 休むのは 逃げじゃない | 夕暮れのベンチでノートを開いて休む人 | 選び直す時間 |
+| 12 | 休むのは 逃げじゃない | 同じ会社員が、夕暮れの都会の公園のベンチで休む | 選び直す時間 |
 | 13 | 今日 あなたが | 朝の机、鉛筆の削りくずの鉢から出た小さな芽 | ラスト・余韻 |
 
 ※ 11〜13のどれかを省けば「10枚くらい」になる。おすすめは全部使って1枚4〜6秒にすること
@@ -117,7 +117,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 
 **No.12｜休むのは逃げじゃない**
 ```
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a person sitting on a park bench at sunset with a small open notebook on their lap, seen from behind, resting calmly and looking at the sky, long soft shadows, peaceful mood. No text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous images (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), sitting on a bench in a small city park at sunset with his backpack beside him and his tie loosened, a small open notebook on his lap, seen from behind and slightly to the side, resting calmly and looking up at the sky between modern buildings, long soft shadows, peaceful mood. No readable text, no logos.
 ```
 
 **No.13｜ラスト（小さな芽を 選べる道に）**

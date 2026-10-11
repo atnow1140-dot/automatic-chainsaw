@@ -4,7 +4,8 @@
 1. ChatGPTで新しいチャットを開く
 2. お手本画像（Canvaの試作v2 https://www.canva.com/M/MAHXqCCaVGk をダウンロードしたもの）を添付して、下の「最初に送る文」を送る（線と塗りのお手本。部屋は現代風にするよう文で指示済み）
 3. 「OK」と返ってきたら、No.1から1枚ずつ貼って送る
-4. 絵柄がずれてきたら「1枚目と同じ線の太さ・塗りの薄さにして」、部屋が古く見えたら「もっと現代のスタジオにして」と一言添えて作り直す
+4. No.10・11・12は同じ会社員なので、この3枚は続けて同じチャットで作る
+5. 絵柄がずれてきたら「1枚目と同じ線の太さ・塗りの薄さにして」、部屋が古く見えたら「もっと現代のスタジオにして」と一言添えて作り直す
 
 ■ 最初に送る文
 ----------
@@ -59,7 +60,7 @@ Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash 
 Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous image (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), seen from behind standing at a fork in a modern city sidewalk at dusk, the left path leads back toward tall office buildings with lit windows, the right path leads toward a quieter tree-lined street with warm shop lights and a train station, both paths look calm and possible, no path is dark or scary. No text, no readable signs, no logos.
 
 ■ No.12｜休むのは逃げじゃない
-Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a person sitting on a park bench at sunset with a small open notebook on their lap, seen from behind, resting calmly and looking at the sky, long soft shadows, peaceful mood. No text.
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous images (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), sitting on a bench in a small city park at sunset with his backpack beside him and his tie loosened, a small open notebook on his lap, seen from behind and slightly to the side, resting calmly and looking up at the sky between modern buildings, long soft shadows, peaceful mood. No readable text, no logos.
 
 ■ No.13｜ラスト（小さな芽を 選べる道に）
 Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a clean modern light-colored desk at dawn by a large window, a small simple pot filled with pencil shavings, and from the shavings a single fresh green sprout is growing, the green sprout is the only vivid color in the image, a short pencil lying beside it, quiet hopeful mood. No text.
