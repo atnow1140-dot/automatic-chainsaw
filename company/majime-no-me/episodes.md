@@ -21,7 +21,7 @@
 | 2 | 2 | キアヌ・リーヴス（お金）「お金の使い道」 | ✅ ほぼ完成（10/09「動画はそこそこできた」） | ✅ 世界的スターが、成功報酬を裏方に回した理由｜キアヌ・リーヴス | 下書き `company/assets/majime-no-me/keanu-money/thumbnail-draft.png`（A〜D案も同フォルダ） | `company/secretary/ideas/majime-no-me-short-keanu-money.md`（inspiring-maxwell） |
 | 3 | 4 | 本田宗一郎と藤澤武夫（人間関係）「ひとりで抱えなかった二人」 | 台本v2・画像プロンプト14枚・字幕色・サムネ完成 10/11（**次に作る回**） | ✅ 苦手は、誰かの得意で埋めていい｜本田宗一郎と藤澤武夫 #short | ✅ `.../honda-fujisawa/thumbnail-final.png`（文字：本田宗一郎と藤澤武夫／ひとりで／抱えない） | `company/majime-no-me/shorts-jinbutsu/honda-fujisawa/`（このブランチ。v1は focused-rubin） |
 | 4 | 5 | 大谷翔平（働き方）「夢の横に書いた、ゴミ拾い」 | 台本v2・画像プロンプト13枚・字幕色・目標シート描き起こし（PDF・赤丸） 10/11 | ✅ 大谷翔平が高校1年で書いた目標に「ゴミ拾い」があった理由 #short | 文字案あり（絵はChatGPTで作成待ち） | `company/majime-no-me/shorts-jinbutsu/ohtani-shohei/`（このブランチ。v1は focused-rubin） |
-| 5 | 4 | オセオラ・マッカーティ（お金）「洗濯の仕事で、奨学金をつくった人」 | 台本v2（フック追加）10/12・タイトル3案 | 未決（おすすめ案A「洗濯の仕事で貯めたお金を、通ったことのない大学に寄付した人 #short」） | なし | `company/majime-no-me/shorts-jinbutsu/oseola-mccarty/`（このブランチ。v1は focused-rubin） |
+| 5 | 6 | オセオラ・マッカーティ（お金）「洗濯の仕事で、奨学金をつくった人」 | 台本v2（フック追加）・画像プロンプト15枚・説明文 10/12 | ✅ 洗濯の仕事で貯めたお金を、通ったことのない大学に寄付した人 #short | 文字案あり（洗濯70年の／贈りもの。絵はChatGPTで作成待ち） | `company/majime-no-me/shorts-jinbutsu/oseola-mccarty/`（このブランチ。v1は focused-rubin） |
 | 6 | — | ヘレン・ケラーとアン・サリバン（人間関係） | 案 | — | — | — |
 | 7 | 3 | 宮崎駿（働き方）「やめてもいい、戻ってきてもいい」 | 台本・画像プロンプト13枚・字幕色PDF・サムネ完成 10/11 | 未決 | ✅ `.../shorts-jinbutsu/miyazaki-hayao/thumbnail-final.png`（文字：宮崎駿／辞めた自分／戻った自分） | `.../shorts-jinbutsu/miyazaki-hayao/script-keanu-style.md`（focused-rubin） |
 | 8 | — | 夏目漱石と正岡子規（人間関係） | 案 | — | — | — |

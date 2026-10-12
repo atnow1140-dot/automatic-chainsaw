@@ -1,0 +1,57 @@
+【ChatGPT用】人物シリーズ第5話 オセオラ・マッカーティ　画像プロンプト（15枚）
+
+■ 手順
+1. ChatGPTで新しいチャットを開いて、No.1を貼る
+2. No.1の絵が気に入ったら、同じチャットでNo.2から順に1枚ずつ貼る
+3. 絵柄や人物がずれたら、No.1の画像を添付して「この絵と同じ人物・同じ画風で」と添える
+4. 同じ構図が続いたら、そのNo.だけ新しいチャットで作り直す（No.1の画像を添付して）
+5. No.12〜14の会社員の女性は続けて同じチャットで作る
+6. サムネ用の絵は title-thumb-desc.md のプロンプトを、No.1と同じチャットで送る
+
+■ 守ること
+顔は描かない（後ろ姿・手元・遠景だけ）／文字・ロゴ・大学名・紙幣の数字は入れない
+
+■ No.1｜冒頭フック（サムネ候補）「小学6年で 学校をやめた女性が」
+Detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, NOT realistic, NOT photo, NOT 3D, NOT anime, 9:16 vertical. An elderly Black woman with short gray hair, in a simple faded cotton house dress and apron, seen from behind standing at a wooden ironing board in a small modest room in the American South around 1990, pressing a white shirt with a heavy old iron, a neat stack of folded white shirts beside her, through the window in the distance a red-brick university clock tower in warm evening light. Keep this exact same woman and drawing style in all following images. No face shown, no text, no logos.
+
+■ No.2｜アメリカ南部 ミシシッピ州の
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. A small white wooden house with a front porch on a quiet street in Mississippi, tall pine trees and a big oak with hanging moss, a long clothesline in the side yard with white shirts and sheets drying, hot humid afternoon light. No people, no text, no signs.
+
+■ No.3｜人の服を 洗って
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. Close-up of the same woman's dark weathered hands scrubbing a white shirt on an old metal washboard in a round tin washtub full of soapy water, outdoors in the yard, sleeves rolled up, sunlight on the water. Only hands and forearms, no face, no text.
+
+■ No.4｜アイロンを かけること
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. Close-up from the side: the same woman's hand holding a heavy old-fashioned iron pressing the collar of a crisp white shirt on an ironing board, a little steam rising, a glass of water and a folded cloth nearby, warm lamp light. Only hand and arm, no face, no text, no logos.
+
+■ No.5｜それを 70年以上
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. Wide view of a very long clothesline in the side yard of the same small house, dozens of white shirts hanging in a row stretching far into the distance, the light changing from morning on the left to evening on the right, a feeling of many, many years of work. No people, no text.
+
+■ No.6｜派手な暮らしは しなかった／少しずつ お金を 残していった
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. A plain kitchen table in the same modest house at night under a single bulb: a worn small savings passbook lying closed, a few coins and one neatly folded bill placed beside it, the same woman's dark weathered hand gently setting down one more coin, a simple wooden chair in a plain tidy room. No face, no readable text, no numbers on money, no logos.
+
+■ No.7｜仕事を 引退したあと
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. The same woman seen from behind, sitting quietly in a wooden rocking chair on the front porch of the same house in soft morning light, the old iron resting cold on a small table, the ironing board folded and leaning against the wall behind her, peaceful mood. No face shown, no text.
+
+■ No.8｜地元の大学に 寄付した／一度も 通ったことのない 大学だった
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. The same small elderly woman in her simple cotton dress and a plain hat, seen from behind standing at the foot of wide stone steps leading up to a large red-brick university building with white columns and a clock tower, she looks very small in front of it, warm late afternoon light. No face shown, no text, no university name, no logos.
+
+■ No.9｜学びたくても お金がなくて 学べない
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. A young Black female student in simple clothes with a worn backpack, seen from behind standing outside a tall iron gate, looking through the bars at the same red-brick university building in the distance, a little lonely, early evening. No face shown, no text, no logos.
+
+■ No.10｜自分が 続けられなかった 学びを 知らない誰かに 手渡した
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. Close-up of two hands: an old dark weathered hand gently passing a closed plain hardcover book to a young hand reaching out, warm amber light between them, soft blurred background of a library. Only hands, no faces, no text on the book, no logos.
+
+■ No.11｜このことを 知った人たちが 次々に 寄付を 重ねた（600人以上）
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. Top view of many different hands of people of all ages and backgrounds reaching in from every edge of the frame toward the center, each placing a small plain white envelope onto a growing pile on a wooden table, warm amber light on the pile. No faces, no text on the envelopes, no numbers.
+
+■ No.12｜すごいけど 自分には 関係ない（視聴者）
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. A Japanese office worker woman in her late twenties with shoulder-length black hair, wearing a beige trench coat over office clothes and carrying a black tote bag (keep this exact same character in the next images), sitting on a nearly empty train at night, seen from the side and slightly behind, looking down at her phone with a tired expression in shadow, city lights blurring past the window. No detailed face, no readable text on the phone, no logos.
+
+■ No.13｜毎日 目の前の 仕事をして 少しだけ 残して
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. The same office worker woman as the previous image, now at home at a small table under a warm lamp, seen from behind, dropping a single coin into a small clear glass jar that is a quarter full of coins, a cup of tea beside it, quiet calm night. No face shown, no text, no logos.
+
+■ No.14｜お金は 誰かの 選べる道を 増やす 道具
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. The same office worker woman as the previous image, seen from behind standing on a quiet country road in the early morning, the road in front of her splits into three gentle paths leading toward different horizons, soft sunrise light, hopeful mood. No face shown, no text, no signs.
+
+■ No.15｜ラスト「小さな芽を 選べる道に育てていこうか」
+NEW SCENE, do not repeat the previous composition. Same drawing style as the first image. A wooden windowsill at dawn: a neatly folded white shirt, a small clear glass jar with a few coins, and next to them a small simple pot from which a single fresh green sprout is growing, the green sprout is the only vivid color in the image, quiet hopeful mood. No readable text, no logos.
