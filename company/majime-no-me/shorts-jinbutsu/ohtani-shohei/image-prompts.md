@@ -1,42 +1,119 @@
-# 人物シリーズ 第4話｜大谷翔平　画像プロンプト（13枚・縦9:16）
+# 人物シリーズ 第4話｜大谷翔平　画像の流れ（v2・2026-10-12 作り直し）
 
-作成日: 2026-10-11
-使い方: Vrewで音声から動画を作ったあと、下の表の「切り替える文」のクリップに画像を差し替える
-画像はChatGPTで作る（人物シリーズのルール）。そのまま貼れる版: `chatgpt-prompts.txt`
-画風: 第3話・第7話と同じ「鉛筆スケッチ（太い線と細い線のミックス）＋色鉛筆の薄塗り・白い紙を多く残す」
+フウガが作ったNo.1（夕暮れのグラウンドで紙くずを拾う後ろ姿）を**お手本**にして、No.1から順に組み直した。
+- 画風・人物はNo.1にそろえる（細かい鉛筆＋セピアとアンバーの薄塗り／汚れた白いユニフォーム・黒いソックス）
+- 目標シートはフウガ作の古紙版 `goal-sheet-aged.png` を使う。ChatGPTが真ん中を「ドライ 8球団」にしていたので「ドラ1」に直した
+- ChatGPTで作るのは11枚（No.2・3・5・7〜14）。そのまま貼れる版は `chatgpt-prompts.txt`
+- 守ること: 顔は描かない／ロゴ・校名・背番号・MLBのデザインは入れない／文字は画像に入れない
+- 旧版（v1）の一覧は git の履歴に残っている
 
-## 守ること（実在の人物・球団の扱い）
-- **本人の顔は描かない**。背の高い高校生・無地の白い練習着という「記号」と、後ろ姿・手元・シルエットで表す
-- **球団・高校のロゴ、校名、背番号、MLBのユニフォームは描かない**（商標）。メジャーの場面も無地のグレーのユニフォーム
-- 目標のシート（マンダラチャート）は「9×9のマス目＋読めない走り書き」にする。文字は画像に入れない（テロップはVrewで乗せる）
-- No.11・12の会社員は第3話・第7話と同じ人物
-- 各プロンプトの頭に「NEW SCENE」を付けた（第3話でNo.7とNo.8が同じ絵になった対策）
-
----
-
-## 最初に送る文（新しいチャットで1回）
-お手本画像として、第3話（本田宗一郎と藤澤武夫）でできた画像を1枚添付して送る。
+## 最初に送る文（新しいチャットで1回。No.1の画像 `no01-chatgpt.png` を添付）
 ```
-これから、YouTubeショート用に、同じ画風で縦長（9:16）の挿絵を13枚作ります。添付した画像の絵柄（鉛筆の太い線と細い線のミックス・色鉛筆の薄塗り・白い紙を多く残す）にそろえてください。以下のルールを、このチャットのすべての画像に適用してください。
+これから、YouTubeショート用の縦長（9:16）の挿絵を何枚か作ります。添付した画像（夕暮れのグラウンドで紙くずを拾う高校生の後ろ姿）がお手本です。このチャットのすべての画像を、次のルールで作ってください。
 
 【画風】
-bold expressive pencil sketch illustration on white textured drawing paper, very sharp and crisp, dynamic line weight: strong thick dark graphite contour lines on the main subject mixed with very thin delicate pencil lines for details, confident decisive strokes, fine hatching only in the deepest shadows, light and sparse colored pencil wash with lots of white paper showing through, pale muted sepia, olive and dusty blue-gray tints with a small warm amber accent, high contrast, graphic and striking, NOT realistic, NOT photographic, no text, 9:16 vertical
-
-【入れないもの】
-photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor bleed, smudged charcoal, airbrush, glossy digital painting, flat vector art, motion blur, depth of field, bokeh, text, letters, logos, brand names, team logos, uniform numbers, school names, advertisements, bright saturated colors, anime, cute chibi
-
-【舞台】
-No.1〜9は2010年ごろの日本の地方の高校（野球のグラウンド・寮）、No.10はアメリカの大きな野球場、No.11〜13は現代の日本のオフィス・街・机です。毎回ちがう場面なので、前の画像の構図をくり返さないでください。
+添付画像と同じ：クリーム色の紙に描いた、細かい鉛筆スケッチ。色はセピアとやわらかいアンバー（夕焼けのオレンジ）を色鉛筆で薄く。写真風・3D・アニメ風にはしない。
 
 【人物】
-実在の人物の顔は描かないでください。主人公は「背の高い、短い黒髪の高校生（無地の白い練習着）」として、後ろ姿・手元・シルエットだけで表現してください。チームのロゴ・校名・背番号・球団名・広告は描かないでください。
+主人公は添付画像の高校生と同じ人物（短い黒髪・背が高くて細身・汚れた無地の白い野球のユニフォーム・黒いソックス・黒いスパイク）。顔は描かず、後ろ姿・横からのシルエット・手元だけで表現してください。
+
+【入れないもの】
+文字・ロゴ・校名・背番号・球団名・広告・実在のユニフォームのデザイン。
+
+【その他】
+毎回ちがう場面です。前の画像の構図をくり返さないでください。
 
 理解したら「OK」とだけ返してください。
 ```
 
+## 一覧（どの文から切り替えるか）
+| No | 切り替える文（台本） | 場面 | 作り方 |
+|---|---|---|---|
+| 1 | 高校1年の大谷翔平が | 夕暮れのグラウンドで紙くずを拾う後ろ姿 | ✅ 完成（`no01-chatgpt.png`） |
+| 2 | 岩手の 花巻東高校 | No.1と同じグラウンドを、朝の光で広く見せる | ChatGPT |
+| 3 | 1年生の彼は | 寮の机で、マス目の紙に鉛筆で書く後ろ姿 | ChatGPT |
+| 4 | 真ん中のマスには | 目標シート全体。Vrewでゆっくり真ん中の「ドラ1 8球団」に寄る | ✅ `goal-sheet-aged.png`（フウガ作の古紙版。「ドライ」を「ドラ1」に直したもの） |
+| 5 | そのまわりに | 夕暮れのマウンドで投げるシルエット | ChatGPT |
+| 6 | そして | 同じ目標シートで、Vrewのズームで「運」のブロックに寄る（新しく作らなくていい） | ✅ `goal-sheet-aged.png` をズーム |
+| 7 | あいさつ | グラウンドの入口で、帽子を取って深く礼をする後ろ姿 | ChatGPT |
+| 8 | 部屋そうじ | 寮の部屋をほうきで掃除する後ろ姿 | ChatGPT |
+| 9 | ゴミ拾いは 運拾い | No.1の手元のアップ。紙くずをつまむ指 | ChatGPT |
+| 10 | メジャーリーガーになった 今も | 巨大なスタジアムの芝で、紙くずを拾う小さな後ろ姿 | ChatGPT |
+| 11 | 大きな夢と | 手前に芝の上の紙くず、奥にスタジアムの大きな照明 | ChatGPT |
+| 12 | 夢が 大きすぎて | 夜のオフィスで、壁いっぱいの付せんの前に立ち尽くす会社員（第3話と同じ人物） | ChatGPT |
+| 13 | そんな日は | 朝の通勤路で、同じ会社員が道の紙くずをひとつ拾う（No.1と同じポーズ） | ChatGPT |
+| 14 | 今日 あなたが | 朝の机に、マス目の紙と野球ボール。小さな鉢から芽 | ChatGPT |
+
+※ 約120秒÷14枚で1枚8〜9秒。No.4〜6は同じシートをVrewのズームでつなぐと流れが自然
+
 ---
 
-## 目標シートの画像（ChatGPTを使わず、こちらで作成済み）
+## 1枚ずつ貼るプロンプト
+
+**No.1｜冒頭フック（サムネ候補）** … ✅ 完成（`no01-chatgpt.png`）
+
+**No.2｜岩手の 花巻東高校**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. The same rural high school baseball field as the reference image, but in early morning light, seen wide from behind home plate: the chain-link backstop, a small dugout with a bench, a dirt infield, power poles, and the mountains of northern Japan in the distance with a little snow on the peaks, empty and quiet. No people, no text, no signs, no logos.
+```
+
+**No.3｜1枚の紙に目標を書く**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. the same high school boy as the attached reference image (short black hair, tall and slim, a dirt-stained plain white baseball uniform with no logos, letters or numbers, black socks, black cleats), now in a plain gray T-shirt, seen from behind sitting at a simple wooden desk in a small school dormitory room at night, writing with a pencil on a large sheet of paper divided into a 9 by 9 grid of small squares, a desk lamp with a warm amber glow, a baseball glove on the shelf. The writing on the paper is tiny illegible scribbles. No face shown, no text, no logos, no numbers.
+```
+
+**No.4｜目標シート（全体）** … ✅ `goal-sheet-aged.png`（フウガ作の古紙版。「ドライ」を「ドラ1」に直したもの）
+
+**No.5｜体づくり・コントロール・スピード**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. the same high school boy as the attached reference image (short black hair, tall and slim, a dirt-stained plain white baseball uniform with no logos, letters or numbers, black socks, black cleats), seen from the side as a strong silhouette in mid pitching motion on the dirt pitcher's mound of the same field at sunset, the orange sun low behind the mountains, dust lifting from his front foot, his face in shadow with no detailed features. No face shown, no text, no logos, no numbers.
+```
+
+**No.6｜運のマス** … ✅ `goal-sheet-aged.png` をズーム
+
+**No.7｜あいさつ・審判さんへの態度**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. the same high school boy as the attached reference image (short black hair, tall and slim, a dirt-stained plain white baseball uniform with no logos, letters or numbers, black socks, black cleats), holding a plain white cap with no logo in one hand, seen from behind at the entrance gate of the same dirt baseball field, bowing deeply toward the field in the early morning, long soft shadows, respectful and calm mood. No face shown, no text, no logos, no numbers.
+```
+
+**No.8｜部屋そうじ**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. the same high school boy as the attached reference image (short black hair, tall and slim, a dirt-stained plain white baseball uniform with no logos, letters or numbers, black socks, black cleats), now in a plain gray T-shirt and the white uniform pants, seen from behind sweeping the wooden floor of a small tidy dormitory room with a broom, a neatly folded futon and a bat leaning in the corner, morning sunlight through the window. No face shown, no text, no logos, no numbers.
+```
+
+**No.9｜ゴミ拾いは 運拾い**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. Close-up of the same boy's right hand from the reference image picking up the small crumpled white paper from the dirt of the baseball field at sunset, the dirt-stained white sleeve at the edge of the frame, warm amber light, the small moment feels important. No face, no text, no logos.
+```
+
+**No.10｜メジャーでも拾う**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. A huge modern baseball stadium at dusk seen from high in the stands, packed seats and tall bright lights, and far below on the green grass a single tall player in a plain gray uniform with no logos, letters or numbers is bending down to pick up a small piece of white paper litter, the same pose as the reference image, he looks tiny in the vast stadium. No readable text, no logos, no team names, no advertisements.
+```
+
+**No.11｜大きな夢と 足もとのゴミ**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. Low angle at ground level: a single small crumpled white paper on green stadium grass in the foreground, sharp and detailed, and in the background the enormous lights and stands of a baseball stadium glowing against the evening sky, contrast between the tiny paper and the huge stadium. No people, no readable text, no logos.
+```
+
+**No.12｜夢が大きすぎて（視聴者）**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. A Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack (keep this exact same character in the next image), standing alone in a modern office at night in front of a huge wall covered with dozens of sticky notes, seen from behind, overwhelmed and not knowing where to start, city lights through the window. No readable text on the notes, no logos.
+```
+
+**No.13｜今日 拾える ひとつ**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. The same office worker as the previous image, on a quiet city sidewalk in the early morning on his way to work, bending down to pick up a single small crumpled white paper, the same pose as the boy in the reference image, seen from behind and slightly to the side so his face has no detailed features, warm morning light. No readable text, no logos.
+```
+
+**No.14｜ラスト（小さな芽を 選べる道に）**
+```
+NEW SCENE, do not repeat the previous composition. Same drawing style as the attached reference image: detailed pencil sketch on cream paper with warm sepia and soft amber colored pencil wash, 9:16 vertical. A light-colored wooden desk at dawn by a window, a sheet of paper with a square grid pattern and a plain white baseball with red stitches lying on it, next to them a small simple pot from which a single fresh green sprout is growing, the green sprout is the only vivid color in the image, quiet hopeful mood. No readable text, no logos.
+```
+
+---
+
+## 目標シートの画像について（v1から引き継ぎ）
 - ネットで見かける実物のシート画像は、撮影・掲載した側に権利があるので加工しても使わない
 - 代わりに、出典で確認できた中身だけを手書き風の文字で描き起こした（2026-10-11）
   - `goal-sheet-center.png` … 真ん中「ドラ1 8球団」＋まわり8つ（体づくり・コントロール・キレ・メンタル・スピード160km/h・人間性・運・変化球）。出典: ライフハッカー
@@ -45,90 +122,3 @@ No.1〜9は2010年ごろの日本の地方の高校（野球のグラウンド�
 - 実物シートの画像そのもの（新聞・書籍に載ったもの）は動画に使わない。中身を確かめる資料としてだけ使う
 - **No.4はgoal-sheet-center.png、No.6はgoal-sheet-un.pngに差し替え**（ChatGPTで作らなくていい）
 
-## 一覧（どの文から切り替えるか）
-| No | 切り替える文（台本） | 場面 | 役割 |
-|---|---|---|---|
-| 1 | 高校1年の大谷翔平が | 夕方のグラウンドで、背の高い高校生がゴミを拾う後ろ姿。お尻のポケットからマス目の紙がのぞく | **冒頭フック・サムネ候補** |
-| 2 | 岩手の 花巻東高校 | 雪の残る山を背にした、地方の高校の野球グラウンド | 舞台 |
-| 3 | 1年生の彼は | 寮の机で、マス目の紙に向かって書く高校生の後ろ姿 | 目標を書く |
-| 4 | 真ん中のマスには | 9×9のマス目の紙のアップ。真ん中のマスだけ金色に光る | 夢 |
-| 5 | そのまわりに | 夕暮れのマウンドで投げる高校生のシルエット | 努力 |
-| 6 | そして | マス目の紙のアップ。ひとつのマスだけ空白で、鉛筆がその上で止まっている | 運のマス |
-| 7 | あいさつ | グラウンドの入口で、帽子を取って深く礼をする高校生の後ろ姿 | あいさつ |
-| 8 | 部屋そうじ | 寮の部屋をほうきで掃除する高校生の後ろ姿 | 部屋そうじ |
-| 9 | ゴミ拾いは 運拾い | 土のグラウンドで、紙くずを拾い上げる手のアップ | 運拾い |
-| 10 | メジャーリーガーになった 今も | 巨大なスタジアムの芝の上で、何かを拾う選手の小さな後ろ姿 | 今も |
-| 11 | 夢が 大きすぎて | 夜のオフィスで、壁いっぱいの付せんを前に立ち尽くす会社員（第3話と同じ人物） | 視聴者に寄り添う |
-| 12 | そんな日は | 朝の通勤路で、同じ会社員が道の紙くずをひとつ拾う | 今日のひとつ |
-| 13 | 今日 あなたが | 朝の机に、マス目の紙と野球ボール。小さな鉢から芽が出ている | ラスト・余韻 |
-
-※ 約120秒÷13枚で、1枚あたり8〜9秒。間延びしたらVrewのズームで動きを付ける
-
----
-
-## 1枚ずつ貼るプロンプト
-
-**No.1｜冒頭フック（サムネ候補）**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tall slim Japanese high school boy with short black hair in a plain white baseball practice uniform with no logos, no letters and no numbers, seen from behind, bending down to pick up a small piece of crumpled paper litter from the dirt of an empty high school baseball field at dusk, a folded sheet of paper with a square grid pattern sticks out of his back pocket, long shadows, warm amber evening light, quiet and humble mood. No face, no text, no logos.
-```
-
-**No.2｜岩手の 花巻東高校**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a rural Japanese high school baseball field in early spring, a simple backstop net and a small wooden dugout, snow still on the mountains of northern Japan in the distance, empty and quiet morning. No people, no text, no signs, no logos.
-```
-
-**No.3｜1枚の紙に目標を書く**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tall slim Japanese high school boy with short black hair in a plain white baseball practice uniform with no logos, no letters and no numbers, seen from behind sitting at a simple desk in a small school dormitory room at night, writing with a pencil on a large sheet of paper divided into a 9 by 9 grid of small squares, a desk lamp, a baseball glove on the shelf. No face, the writing on the paper is illegible tiny scribbles, no readable text, no logos.
-```
-
-**No.4｜真ん中のマス（ドラ1 8球団）**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up from above of a sheet of paper divided into a 9 by 9 grid of small squares, every square filled with tiny illegible pencil scribbles, only the single center square glows with warm golden amber light, a pencil lying beside the sheet. No readable text, no letters, no numbers.
-```
-
-**No.5｜体づくり・コントロール・スピード**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tall slim Japanese high school boy with short black hair in a plain white baseball practice uniform with no logos, no letters and no numbers, seen from the side as a strong silhouette in mid pitching motion on a dirt pitcher's mound at sunset, his face in shadow with no detailed features, dust lifting from his foot, dramatic warm sky. No text, no logos.
-```
-
-**No.6｜そして 運**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of a sheet of paper with a square grid pattern, most squares are filled with tiny illegible scribbles, but one square is still empty and white, a teenager's hand holds a pencil hovering just above that empty square, hesitant pause, soft desk lamp light. No readable text, no letters, no numbers.
-```
-
-**No.7｜あいさつ・審判さんへの態度**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tall slim Japanese high school boy with short black hair in a plain white baseball practice uniform with no logos, no letters and no numbers, seen from behind at the entrance of a dirt baseball field, holding his plain cap in one hand and bowing deeply toward the field, early morning light, respectful and calm mood. No face, no text, no logos.
-```
-
-**No.8｜部屋そうじ**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a tall slim Japanese high school boy with short black hair in a plain white baseball practice uniform with no logos, no letters and no numbers, seen from behind sweeping the floor of a small tidy school dormitory room with a broom, a neatly made futon and a baseball bat leaning in the corner, morning sunlight through the window. No face, no text, no logos.
-```
-
-**No.9｜ゴミ拾いは 運拾い**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of a young man's hand picking up a small crumpled piece of paper litter from the dirt of a baseball infield, the white chalk line of the field nearby, warm amber light, the moment of picking up feels important. No face, no text, no logos.
-```
-
-**No.10｜メジャーでも拾う**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a huge modern baseball stadium seen from high in the stands, packed seats and tall lights, and far below on the bright green grass a single tall player in a plain gray uniform with no logos, letters or numbers is bending down to pick up a small piece of litter, he looks tiny in the vast stadium. No readable text, no logos, no team names, no advertisements.
-```
-
-**No.11｜夢が大きすぎて（視聴者）**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack (keep this exact same character in the next image), standing alone in a modern office at night in front of a huge wall covered with dozens of sticky notes, seen from behind, overwhelmed and not knowing where to start, city lights through the window. No readable text on the notes, no logos.
-```
-
-**No.12｜今日 拾える ひとつ**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous image (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), on a quiet city sidewalk in the early morning on his way to work, bending down to pick up a single small piece of paper litter, seen from the side with his face in soft shadow so it has no detailed features, fresh morning light, a small calm decision. No readable text, no logos.
-```
-
-**No.13｜ラスト（小さな芽を 選べる道に）**
-```
-NEW SCENE, do not repeat the previous composition. Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a clean light-colored wooden desk at dawn by a large window, a sheet of paper with a square grid pattern and a plain white baseball with red stitches lying on it, and next to them a small simple pot from which a single fresh green sprout is growing, the green sprout is the only vivid color in the image, quiet hopeful mood. No readable text, no logos.
-```
