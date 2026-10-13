@@ -1,0 +1,70 @@
+【ChatGPT用】人物シリーズ第3話 本田宗一郎と藤澤武夫　画像プロンプト（14枚・縦9:16）
+
+■ 手順
+1. ChatGPTで新しいチャットを開く
+2. お手本画像（第7話 宮崎駿でできた画像を1枚）を添付して、下の「最初に送る文」を送る
+3. 「OK」と返ってきたら、No.1から1枚ずつ貼って送る
+4. No.11・12・13は同じ会社員なので、この3枚は続けて同じチャットで作る
+5. 絵柄がずれてきたら「1枚目と同じ線の太さ・塗りの薄さにして」と一言添えて作り直す
+6. ロゴや文字が入ってしまったら「文字とロゴを消して」と頼む
+
+■ 最初に送る文
+----------
+これから、YouTubeショート用に、同じ画風で縦長（9:16）の挿絵を14枚作ります。添付した画像の絵柄（鉛筆の太い線と細い線のミックス・色鉛筆の薄塗り・白い紙を多く残す）にそろえてください。以下のルールを、このチャットのすべての画像に適用してください。
+
+【画風】
+bold expressive pencil sketch illustration on white textured drawing paper, very sharp and crisp, dynamic line weight: strong thick dark graphite contour lines on the main subject mixed with very thin delicate pencil lines for details, confident decisive strokes, fine hatching only in the deepest shadows, light and sparse colored pencil wash with lots of white paper showing through, pale muted sepia, olive and dusty blue-gray tints with a small warm amber accent, high contrast, graphic and striking, NOT realistic, NOT photographic, no text, 9:16 vertical
+
+【入れないもの】
+photorealistic, photograph, 3d render, soft blur, heavy coloring, watercolor bleed, smudged charcoal, airbrush, glossy digital painting, flat vector art, motion blur, depth of field, bokeh, text, letters, logos, brand names, company emblems, real motorcycle or car models, bright saturated colors, anime, cute chibi
+
+【舞台】
+No.1〜10は昭和の日本（1949〜1973年）です。町工場・木の机・黒い電話・そろばんなど、その時代らしい道具にしてください。No.11〜14は現代（2020年代）の日本のオフィスと街です。
+
+【人物】
+実在の人物の顔は描かないでください。本田宗一郎は「白い作業着（つなぎ）の男性」、藤澤武夫は「濃い色のスリーピースのスーツの男性」として、後ろ姿・手元・シルエットだけで表現してください。会社のロゴ・社名・実在のバイクや車のデザインは描かないでください。
+
+理解したら「OK」とだけ返してください。
+----------
+
+■ No.1｜冒頭フック（サムネ候補）
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a small Japanese motorcycle workshop around 1950, in the foreground a man in white work overalls seen from behind, bent over a small engine on a workbench with grease on his hands and a wrench, in the background through an open doorway a tidy wooden office desk where a different man's hands in a dark suit sleeve write in an account ledger next to an abacus, warm amber light falls on the ledger. No faces shown, no text, no logos, no brand names.
+
+■ No.2｜ひとりじゃなかった
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. two men seen from behind standing side by side at dawn, looking at a small wooden factory building with a modest chimney, the man on the left wears white work overalls, the man on the right wears a dark three-piece suit and holds a hat, long morning shadows, Japan around 1950, quiet sense of partnership. No faces, no text, no signs, no logos.
+
+■ No.3｜技術者・本田宗一郎
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of a man's strong grease-stained hands assembling small engine parts on a worn workbench, a wrench, bolts and a piston laid out neatly, white work overall sleeves rolled up, warm amber workshop lamp, focused and passionate mood. No face, no text, no logos.
+
+■ No.4｜1949年 出会い
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of a handshake between two men in a small plain room in postwar Japan, one hand rough and slightly grease-stained with a white work overall sleeve, the other hand clean with a dark suit sleeve and white shirt cuff, a simple wooden table with two cups of tea behind them, soft window light. No faces, no text.
+
+■ No.5｜常務として入社
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a man in a dark three-piece suit seen from behind, sitting down at a small wooden office desk in autumn, opening a thick account ledger, a black rotary telephone and an abacus on the desk, autumn leaves visible through the window, Japan around 1949, a fresh start mood. No face, no text, no logos.
+
+■ No.6｜役割分担
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a single image split vertically into two scenes side by side: on the left a man in white work overalls seen from behind testing a small engine in a workshop, on the right a man in a dark suit seen from behind talking on a black rotary telephone at a desk with ledgers and sales papers, the two scenes connected by the same warm amber light, Japan in the 1950s. No faces, no text, no logos.
+
+■ No.7｜得意がまったく違う
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. on a simple wooden table, a heavy greasy wrench lying side by side with a polished fountain pen and a wooden abacus, soft side light, still life, the contrast between the two sets of tools is clear but they lie peacefully together. No text, no logos.
+
+■ No.8｜25年の二人三脚
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. NEW SCENE: completely different from the previous image, do NOT draw any tools, wrench, pen, abacus or table. Outdoors, low camera angle at ground level: two pairs of men's feet walking side by side away from the viewer along a long straight country road in Japan that stretches to the horizon, the left pair wears worn work boots with the cuffs of white work overalls, the right pair wears polished black leather dress shoes with dark suit trousers, their steps are in sync, along the road the trees change from spring blossoms near the viewer to autumn leaves in the distance to show many years passing. Only legs and feet are visible, no faces, no text.
+
+■ No.9｜1973年 そろって引退
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a spacious 1970s Japanese executive office, two empty chairs side by side behind a large desk that has been neatly cleared, a white work jacket and a dark suit coat hanging together on a coat stand, late afternoon light through tall windows, calm and dignified farewell mood. No people, no text, no logos.
+
+■ No.10｜社員に任せた
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. close-up of an older man's hand placing a ring of keys into the open palm of a younger man's hand, the younger man wears a 1970s suit sleeve, the older hand is weathered, soft warm light, trust and handover mood. No faces, no text, no logos.
+
+■ No.11｜自分が全部やらなきゃ（視聴者）
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack (keep this exact same character in the next images), sitting alone at a desk in a modern office late at night, surrounded by tall stacks of documents and sticky notes, resting his forehead on one hand, seen from the side in shadow so his face has no detailed features, city lights through the large window, the rest of the office is dark and empty. No readable text, no logos.
+
+■ No.12｜任せるのは手を抜くことじゃない
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous images (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), standing at a bright modern office desk in the daytime, handing a blue document folder to a female colleague in her thirties who takes it with a calm nod, both seen from the side with faces in soft shadow so they have no detailed features, the stacks of documents on his desk are now smaller, relaxed and trusting mood. No readable text, no logos.
+
+■ No.13｜誰かと進む
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. the same office worker as the previous images (a Japanese office worker in his thirties with short black hair, wearing a navy suit jacket, a white shirt and a loosened gray tie, carrying a black business backpack), seen from behind walking side by side with the same female colleague along a modern city sidewalk at dusk, tall buildings with lit windows and warm street lights, long soft shadows, they walk at the same pace, quiet and hopeful mood. No faces, no text, no readable signs, no logos.
+
+■ No.14｜ラスト（小さな芽を 選べる道に）
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. a clean light-colored wooden desk at dawn by a large window, a wrench and a fountain pen lying side by side, and between them a small simple pot from which a single fresh green sprout is growing, the green sprout is the only vivid color in the image, quiet hopeful mood. No text, no logos.

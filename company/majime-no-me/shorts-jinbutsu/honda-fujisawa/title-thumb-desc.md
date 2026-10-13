@@ -1,0 +1,47 @@
+# 人物シリーズ 第3話｜本田宗一郎と藤澤武夫　タイトル・サムネ・説明文
+
+作成日: 2026-10-11
+ルール: タイトル末尾に必ず「#short」（秘書室ルール）／タイトルとサムネは同じ言葉にしない（タイトル＝気になる事実、サムネ＝答えのヒント）
+
+## タイトル
+- ✅ 決定（2026-10-11 フウガ）: **苦手は、誰かの得意で埋めていい｜本田宗一郎と藤澤武夫 #short**（案C）
+
+### 候補だった案
+| 案 | タイトル | ねらい |
+|---|---|---|
+| **A（おすすめ）** | 本田宗一郎が、会社のお金をまかせた男 #short | 冒頭フックと一致。「誰？」で気になる＋名前で検索に強い |
+| B | 世界のホンダは、ひとりでつくられたんじゃなかった #short | 意外性。名前が後ろなので検索はやや弱い |
+| C | 苦手は、誰かの得意で埋めていい｜本田宗一郎と藤澤武夫 #short | メッセージ重視。保存・共有向き |
+
+## サムネ（キアヌ お金編・宮崎駿と同じ「帯なし・白文字＋黒フチ＋影」）
+- 絵: No.1（町工場の作業着の男の後ろ姿）。上35%を空けて文字を置く
+- 文字は3つだけ: 小「本田宗一郎と藤澤武夫」／大「**ひとりで**」（白）／大「**抱えない**」（「抱えない」＝赤・白フチ）
+- 文字だけの透明PNG: `thumbnail-text-overlay.png`（1080×1920・Noto Sans JP Black）→ ChatGPTで作ったNo.1の絵に重ねる
+- 見本: `thumbnail-mock.png`（背景はCanva試作の小さいプレビューを引き伸ばしたもの。本番はChatGPTの絵で）
+- ✅ 完成（2026-10-11）: `thumbnail-final.png`（ChatGPTのイラスト `thumbnail-illustration-chatgpt.png` ＋ 文字）
+- 予備案: 大「苦手は」／大「**任せて**いい」（任せて＝黄）
+
+## 説明文
+```
+世界のホンダの創業者・本田宗一郎は、
+会社のお金を、ひとりの男にまかせていた。
+
+その男、藤澤武夫。
+本田は技術に、藤澤は売ることとお金に。
+得意がまったく違うふたりの二人三脚は、およそ25年続いた。
+
+任せるって、手を抜くことじゃない。
+自分のいちばんの力を、いちばん使える場所に置くこと。
+
+あなたが今、誰かに任せてみたいことは何？
+コメントで教えてね👇
+
+出典：Honda公式ニュース（2023年2月13日）ほか
+
+#本田宗一郎 #藤澤武夫 #ホンダ #仕事の考え方 #人間関係 #真面目の芽 #ショート動画
+```
+
+## サムネ用イラストのプロンプト（ChatGPT・No.1と同じチャットで続けて送る）
+```
+Bold sharp pencil sketch, thick and thin mixed lines, light colored pencil wash on white paper, NOT realistic, same style as before, 9:16 vertical. THUMBNAIL VERSION of the first image: the same small Japanese motorcycle workshop around 1950 and the same man in white work overalls seen from behind, bent over a small engine on a workbench, in the background through an open doorway a different man's hands in a dark suit sleeve writing in an account ledger next to an abacus, warm amber light on the ledger. Place all of this in the lower 65% of the image. Keep the top 35% of the image as plain, light, empty white paper with no objects, so text can be placed there later. No faces shown, no text, no logos, no brand names.
+```
